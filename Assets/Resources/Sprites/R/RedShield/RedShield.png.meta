@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: cc8324b4bd10465429fe44290156a0e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1414125399931500858
+    second: RedShield_0
+  - first:
+      213: -6604868836938404661
+    second: RedShield_1
+  - first:
+      213: -6578013345119141044
+    second: RedShield_2
+  - first:
+      213: 7330482045969259045
+    second: RedShield_3
+  - first:
+      213: -4693434926543569580
+    second: RedShield_4
+  - first:
+      213: -8678073840422047900
+    second: RedShield_5
+  - first:
+      213: 1288195025365493600
+    second: RedShield_6
+  - first:
+      213: 6219242877773837649
+    second: RedShield_7
+  - first:
+      213: -5627996573728795355
+    second: RedShield_8
+  - first:
+      213: 65302327451789127
+    second: RedShield_9
+  - first:
+      213: -7175883219376278171
+    second: RedShield_10
+  - first:
+      213: -6471712885142716323
+    second: RedShield_11
+  - first:
+      213: -673172344898287947
+    second: RedShield_12
+  - first:
+      213: 6297849584528694138
+    second: RedShield_13
+  - first:
+      213: -14335377989789396
+    second: RedShield_14
+  - first:
+      213: -1122884748362434389
+    second: RedShield_15
+  - first:
+      213: -3636640051502356391
+    second: RedShield_16
+  - first:
+      213: -8537873523389398394
+    second: RedShield_17
+  - first:
+      213: 3189086657330500651
+    second: RedShield_18
+  - first:
+      213: 6347777885546321997
+    second: RedShield_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedShield_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3936c21f8bff9310800000000000000
+      internalID: 1414125399931500858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 79
+        width: 24
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc2d3279cac654a0800000000000000
+      internalID: -6604868836938404661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 79
+        width: 24
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c430564e6b336b4a0800000000000000
+      internalID: -6578013345119141044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 79
+        width: 24
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a506e059a1bb560800000000000000
+      internalID: 7330482045969259045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 79
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d75fa1dc19ddeb0800000000000000
+      internalID: -4693434926543569580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fa80f02d9419780800000000000000
+      internalID: -8678073840422047900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 53
+        width: 22
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067e558ec8690e110800000000000000
+      internalID: 1288195025365493600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 53
+        width: 27
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155769542703f4650800000000000000
+      internalID: 6219242877773837649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 53
+        width: 27
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52597c14fe655e1b0800000000000000
+      internalID: -5627996573728795355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 53
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74725ceee1008e000800000000000000
+      internalID: 65302327451789127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 27
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565f36f3b342a6c90800000000000000
+      internalID: -7175883219376278171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 27
+        width: 26
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5000c86b6bdf26a0800000000000000
+      internalID: -6471712885142716323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 27
+        width: 26
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b688b5a15968a6f0800000000000000
+      internalID: -673172344898287947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27
+        width: 23
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b9ca664d4766750800000000000000
+      internalID: 6297849584528694138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 27
+        width: 23
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c299237bc021dcff0800000000000000
+      internalID: -14335377989789396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8372a4546ba60f0800000000000000
+      internalID: -1122884748362434389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 21
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9586e32142f088dc0800000000000000
+      internalID: -3636640051502356391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_17
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 21
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682892d1441638980800000000000000
+      internalID: -8537873523389398394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 20
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b245f181b69e14c20800000000000000
+      internalID: 3189086657330500651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedShield_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 19
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48911dda56d71850800000000000000
+      internalID: 6347777885546321997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

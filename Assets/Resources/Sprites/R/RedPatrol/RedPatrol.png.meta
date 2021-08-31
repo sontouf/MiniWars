@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: 8cd25abce14ca174dbab1e7c0689920a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1091707679977243799
+    second: RedPatrol_0
+  - first:
+      213: 8437074593060188737
+    second: RedPatrol_1
+  - first:
+      213: 6709437219308214573
+    second: RedPatrol_2
+  - first:
+      213: -2213529114470336318
+    second: RedPatrol_3
+  - first:
+      213: -4454784845297838153
+    second: RedPatrol_4
+  - first:
+      213: -6299819515608507314
+    second: RedPatrol_5
+  - first:
+      213: -6443980062238211928
+    second: RedPatrol_6
+  - first:
+      213: -8662773008576785425
+    second: RedPatrol_7
+  - first:
+      213: -4666237989997026678
+    second: RedPatrol_8
+  - first:
+      213: 7352755303312020846
+    second: RedPatrol_9
+  - first:
+      213: -1392075498205032903
+    second: RedPatrol_10
+  - first:
+      213: -5607649994067115516
+    second: RedPatrol_11
+  - first:
+      213: 1849055754882475332
+    second: RedPatrol_12
+  - first:
+      213: -7370504866567962487
+    second: RedPatrol_13
+  - first:
+      213: 8937390099011016927
+    second: RedPatrol_14
+  - first:
+      213: 2990398198609398040
+    second: RedPatrol_15
+  - first:
+      213: -5822213605972297464
+    second: RedPatrol_16
+  - first:
+      213: 6037091283297020025
+    second: RedPatrol_17
+  - first:
+      213: 8897157844572034525
+    second: RedPatrol_18
+  - first:
+      213: -2880739672109951325
+    second: RedPatrol_19
+  - first:
+      213: 1296506626853389139
+    second: RedPatrol_20
+  - first:
+      213: 8372228328219595270
+    second: RedPatrol_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedPatrol_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 118
+        width: 31
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bf36036a979d0f0800000000000000
+      internalID: -1091707679977243799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 118
+        width: 31
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14273de04a2861570800000000000000
+      internalID: 8437074593060188737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 118
+        width: 31
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2996a35a95bc1d50800000000000000
+      internalID: 6709437219308214573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 118
+        width: 31
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8b2088ff6f741e0800000000000000
+      internalID: -2213529114470336318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 118
+        width: 31
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b79a3129cc6d22c0800000000000000
+      internalID: -4454784845297838153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 31
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cd417478b8298a0800000000000000
+      internalID: -6299819515608507314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 79
+        width: 30
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0879a66426296a0800000000000000
+      internalID: -6443980062238211928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 79
+        width: 32
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe350f598d5a7c780800000000000000
+      internalID: -8662773008576785425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 79
+        width: 34
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a826bc855413e3fb0800000000000000
+      internalID: -4666237989997026678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 79
+        width: 34
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e655846edfb3a0660800000000000000
+      internalID: 7352755303312020846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 40
+        width: 30
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec6fcb5ba5eace0800000000000000
+      internalID: -1392075498205032903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_11
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 30
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40288ee7a00ad22b0800000000000000
+      internalID: -5607649994067115516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 40
+        width: 29
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44569af896a29a910800000000000000
+      internalID: 1849055754882475332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 40
+        width: 29
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980cdecdfd4b6b990800000000000000
+      internalID: -7370504866567962487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 40
+        width: 29
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd815a651fcf70c70800000000000000
+      internalID: 8937390099011016927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 30
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819c41d5157008920800000000000000
+      internalID: 2990398198609398040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 32
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8093391a297533fa0800000000000000
+      internalID: -5822213605972297464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 29
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978a689498e08c350800000000000000
+      internalID: 6037091283297020025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_18
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 28
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5db44abed097b70800000000000000
+      internalID: 8897157844572034525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedPatrol_19
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 28
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6d281f78e8508d0800000000000000
+      internalID: -2880739672109951325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

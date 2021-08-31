@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: ba529611e0b6e4b41bfa93dc2686dc36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6504473842130613247
+    second: Cavalry_0
+  - first:
+      213: 1887771600451619798
+    second: Cavalry_1
+  - first:
+      213: -462996444129558409
+    second: Cavalry_2
+  - first:
+      213: -3450385899053184982
+    second: Cavalry_3
+  - first:
+      213: 7127130476188326257
+    second: Cavalry_4
+  - first:
+      213: -3188470222291890179
+    second: Cavalry_5
+  - first:
+      213: 7366481029100805028
+    second: Cavalry_6
+  - first:
+      213: -8307630414386516731
+    second: Cavalry_7
+  - first:
+      213: -2292067419523509629
+    second: Cavalry_8
+  - first:
+      213: -4926452022286151859
+    second: Cavalry_9
+  - first:
+      213: -2842474871702475406
+    second: Cavalry_10
+  - first:
+      213: -7659334850104857246
+    second: Cavalry_11
+  - first:
+      213: -8419258182173267950
+    second: Cavalry_12
+  - first:
+      213: -937261146765537743
+    second: Cavalry_13
+  - first:
+      213: 5907741633221324524
+    second: Cavalry_14
+  - first:
+      213: -1394286328634985881
+    second: Cavalry_15
+  - first:
+      213: 6746444294305591583
+    second: Cavalry_16
+  - first:
+      213: 5569640294350274996
+    second: Cavalry_17
+  - first:
+      213: -2318658795649849800
+    second: Cavalry_18
+  - first:
+      213: -5720427371499769169
+    second: Cavalry_19
+  - first:
+      213: 2557794902894530601
+    second: Cavalry_20
+  - first:
+      213: -8746421357086464641
+    second: Cavalry_21
+  - first:
+      213: 4594341842685850613
+    second: Cavalry_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cavalry_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 127
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c0cf4b0877bb5a0800000000000000
+      internalID: -6504473842130613247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 127
+        width: 29
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db4dfdc446b23a10800000000000000
+      internalID: 1887771600451619798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 127
+        width: 35
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7708367ef2b1399f0800000000000000
+      internalID: -462996444129558409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 127
+        width: 37
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a280be44e44cd10d0800000000000000
+      internalID: -3450385899053184982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 146
+        width: 12
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179d01d2867a8e260800000000000000
+      internalID: 7127130476188326257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 127
+        width: 33
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff816fd93740c3d0800000000000000
+      internalID: -3188470222291890179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 142
+        width: 7
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab1538777ffa3660800000000000000
+      internalID: 7366481029100805028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 142
+        width: 7
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50da241672e55bc80800000000000000
+      internalID: -8307630414386516731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3821e0a63d0f030e0800000000000000
+      internalID: -2292067419523509629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 85
+        width: 31
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f01a8bcf9b1abb0800000000000000
+      internalID: -4926452022286151859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85
+        width: 34
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d233d0a208d88d0800000000000000
+      internalID: -2842474871702475406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 85
+        width: 35
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26deab3e88394b590800000000000000
+      internalID: -7659334850104857246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_12
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 85
+        width: 35
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218e24b5a49c82b80800000000000000
+      internalID: -8419258182173267950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 43
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ec34de3fd2ef2f0800000000000000
+      internalID: -937261146765537743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 43
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee61f007b38cf150800000000000000
+      internalID: 5907741633221324524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 43
+        width: 29
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762378aa8ff76ace0800000000000000
+      internalID: -1394286328634985881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 43
+        width: 29
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11bb0b675f20ad50800000000000000
+      internalID: 6746444294305591583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_17
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 43
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b14377a6565b4d40800000000000000
+      internalID: 5569640294350274996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836a4f13c1872dfd0800000000000000
+      internalID: -2318658795649849800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1
+        width: 32
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2b55e1d95fc90b0800000000000000
+      internalID: -5720427371499769169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 32
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920555399ec1f7320800000000000000
+      internalID: 2557794902894530601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 32
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75a8f2cd187e9680800000000000000
+      internalID: -8746421357086464641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cavalry_22
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1
+        width: 32
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3f006609162cf30800000000000000
+      internalID: 4594341842685850613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

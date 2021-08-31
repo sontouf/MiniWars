@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 3e73cf4fe9282c3418b3009acde5bff5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - swardPrefab: {fileID: 4332750854071494870, guid: 640bc68254b55b0449131b2c0dbeece0,
+      type: 3}
+  - archerPrefab: {fileID: 4523143230319665903, guid: f6ee94a131a907945af1bc9e528a0fb2,
+      type: 3}
+  - armouredSwardPrefab: {fileID: 2326102747368332697, guid: 878ec3d41454fe1498f9fd12adac0ff7,
+      type: 3}
+  - cavalryPrefab: {fileID: 4499656414596292970, guid: eac41b15d9c35f04ca19b26c27694575,
+      type: 3}
+  - patrolPrefab: {fileID: 4614950847388813661, guid: 08ec2bcf919f64b4bb5d7607b60dbe2d,
+      type: 3}
+  - royalGuardPrefab: {fileID: 6236719865276586902, guid: 0cf6fbedc93e3834aa485e647ec0bfa4,
+      type: 3}
+  - shieldPrefab: {fileID: 926481864858398451, guid: 072c94ced2584b04282088bb3e10cf52,
+      type: 3}
+  - spearManPrefab: {fileID: 5814782168503190948, guid: 238ca499a1246084eb26143c4d39b2e0,
+      type: 3}
+  - blueCost: {instanceID: 0}
+  - redCost: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

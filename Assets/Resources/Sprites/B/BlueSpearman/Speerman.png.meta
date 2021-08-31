@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: e1084e76c6a938a44b7816098e713238
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2768279740498441044
+    second: Speerman_0
+  - first:
+      213: -5959179967539007580
+    second: Speerman_1
+  - first:
+      213: 8616210170938482777
+    second: Speerman_2
+  - first:
+      213: -1633692309931439693
+    second: Speerman_3
+  - first:
+      213: 7995457157026406086
+    second: Speerman_4
+  - first:
+      213: 8543196723029112557
+    second: Speerman_5
+  - first:
+      213: -4198759940450377868
+    second: Speerman_6
+  - first:
+      213: -2959555798698753928
+    second: Speerman_7
+  - first:
+      213: 8828045284378270580
+    second: Speerman_8
+  - first:
+      213: -4132870985453601187
+    second: Speerman_9
+  - first:
+      213: -6854256494823133951
+    second: Speerman_10
+  - first:
+      213: -4692244474869489661
+    second: Speerman_11
+  - first:
+      213: 7286526343868694510
+    second: Speerman_12
+  - first:
+      213: 6396085406864735095
+    second: Speerman_13
+  - first:
+      213: 7890854671535630918
+    second: Speerman_14
+  - first:
+      213: -2106811576255262577
+    second: Speerman_15
+  - first:
+      213: -3928707534908479775
+    second: Speerman_16
+  - first:
+      213: 287810435872261487
+    second: Speerman_17
+  - first:
+      213: 1957525593197933575
+    second: Speerman_18
+  - first:
+      213: 2028735042021425089
+    second: Speerman_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Speerman_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 82
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac0ea43e381599d0800000000000000
+      internalID: -2768279740498441044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 82
+        width: 33
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afa632846dbc4da0800000000000000
+      internalID: -5959179967539007580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 82
+        width: 30
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95065e4ff7de29770800000000000000
+      internalID: 8616210170938482777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 82
+        width: 31
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9cf32ff75f359e0800000000000000
+      internalID: -1633692309931439693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 82
+        width: 34
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ced96d2ce195fe60800000000000000
+      internalID: 7995457157026406086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 54
+        width: 28
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de67e62e7288f8670800000000000000
+      internalID: 8543196723029112557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 54
+        width: 28
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f905484120bb5c0800000000000000
+      internalID: -4198759940450377868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 54
+        width: 29
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8700d957eab8de6d0800000000000000
+      internalID: -2959555798698753928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 54
+        width: 33
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bdd64c964838a70800000000000000
+      internalID: 8828045284378270580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_9
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 54
+        width: 37
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ef4815cb715a6c0800000000000000
+      internalID: -4132870985453601187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 28
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d27aa880ac0e0a0800000000000000
+      internalID: -6854256494823133951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 28
+        width: 31
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3006d1cb28cc1eeb0800000000000000
+      internalID: -4692244474869489661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 28
+        width: 31
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefb1d4aa11fe1560800000000000000
+      internalID: 7286526343868694510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 28
+        width: 31
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b7b352ac573c850800000000000000
+      internalID: 6396085406864735095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 28
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aec172482f18d60800000000000000
+      internalID: 7890854671535630918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80df94a80a13c2e0800000000000000
+      internalID: -2106811576255262577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 32
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6216bef4d6a79c0800000000000000
+      internalID: -3928707534908479775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1
+        width: 30
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6501d801128ef300800000000000000
+      internalID: 287810435872261487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_18
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 29
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7047c45d7278a2b10800000000000000
+      internalID: 1957525593197933575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Speerman_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1
+        width: 29
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cff213a5c3872c10800000000000000
+      internalID: 2028735042021425089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

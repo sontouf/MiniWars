@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 0a07efc179f5fa34eb13fc91fd70003d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2889852678206052289
+    second: RedCavalry_0
+  - first:
+      213: 8230116289340668946
+    second: RedCavalry_1
+  - first:
+      213: 2907346291092282224
+    second: RedCavalry_2
+  - first:
+      213: -7592655899462789942
+    second: RedCavalry_3
+  - first:
+      213: 5094439730448921153
+    second: RedCavalry_4
+  - first:
+      213: 1480929971115042460
+    second: RedCavalry_5
+  - first:
+      213: 7634984452308884712
+    second: RedCavalry_6
+  - first:
+      213: 8688273643461605782
+    second: RedCavalry_7
+  - first:
+      213: -2873778732131003177
+    second: RedCavalry_8
+  - first:
+      213: 6592218089800036030
+    second: RedCavalry_9
+  - first:
+      213: -485522676683978976
+    second: RedCavalry_10
+  - first:
+      213: -4289870853805390457
+    second: RedCavalry_11
+  - first:
+      213: 7797737020639543820
+    second: RedCavalry_12
+  - first:
+      213: 9027676118744998825
+    second: RedCavalry_13
+  - first:
+      213: 2890712096617289136
+    second: RedCavalry_14
+  - first:
+      213: -7204697616327525572
+    second: RedCavalry_15
+  - first:
+      213: -8149003753176562502
+    second: RedCavalry_16
+  - first:
+      213: -8095424602864861576
+    second: RedCavalry_17
+  - first:
+      213: -921040281469119555
+    second: RedCavalry_18
+  - first:
+      213: -8817475901237848652
+    second: RedCavalry_19
+  - first:
+      213: -3140710036923829058
+    second: RedCavalry_20
+  - first:
+      213: -1224783309614962570
+    second: RedCavalry_21
+  - first:
+      213: -7751206901612048449
+    second: RedCavalry_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedCavalry_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 127
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7dea123b1da1820800000000000000
+      internalID: 2889852678206052289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 127
+        width: 29
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c7e4ef82f373270800000000000000
+      internalID: 8230116289340668946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 127
+        width: 35
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bda974c08f85820800000000000000
+      internalID: 2907346291092282224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 127
+        width: 37
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac41fb2efa771a690800000000000000
+      internalID: -7592655899462789942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 146
+        width: 12
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1427b0f71f513b640800000000000000
+      internalID: 5094439730448921153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 127
+        width: 33
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96aa8166f15d8410800000000000000
+      internalID: 1480929971115042460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 142
+        width: 7
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec508158e9e4f960800000000000000
+      internalID: 7634984452308884712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 142
+        width: 7
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699fae5a8d2f29870800000000000000
+      internalID: 8688273643461605782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4524418794e18d0800000000000000
+      internalID: -2873778732131003177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 85
+        width: 31
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6f64fc634c7b50800000000000000
+      internalID: 6592218089800036030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85
+        width: 34
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027cadda2b31349f0800000000000000
+      internalID: -485522676683978976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 85
+        width: 35
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785c0aaef215774c0800000000000000
+      internalID: -4289870853805390457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_12
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 85
+        width: 35
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02022f8180273c60800000000000000
+      internalID: 7797737020639543820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 43
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3a21d699fb84d70800000000000000
+      internalID: 9027676118744998825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 43
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b55cc2165fdd1820800000000000000
+      internalID: 2890712096617289136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 43
+        width: 29
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bb1b8a0b5c30c90800000000000000
+      internalID: -7204697616327525572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 43
+        width: 29
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab40692034ce8ee80800000000000000
+      internalID: -8149003753176562502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_17
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 43
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e3840173647af80800000000000000
+      internalID: -8095424602864861576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 30
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3153f6ebec733f0800000000000000
+      internalID: -921040281469119555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_19
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1
+        width: 32
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b59623826802a580800000000000000
+      internalID: -8817475901237848652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 32
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4b6a29cd4f964d0800000000000000
+      internalID: -3140710036923829058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 32
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678a29fa112b00fe0800000000000000
+      internalID: -1224783309614962570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCavalry_22
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1
+        width: 32
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf8bd0046e2e6490800000000000000
+      internalID: -7751206901612048449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

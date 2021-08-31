@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: c4d20ee8d81121249801adda60f50d7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2042134932067839767
+    second: RedRoyalGuard_0
+  - first:
+      213: -3060106013562530713
+    second: RedRoyalGuard_1
+  - first:
+      213: 8015639197765209743
+    second: RedRoyalGuard_2
+  - first:
+      213: -5179904416950374146
+    second: RedRoyalGuard_3
+  - first:
+      213: 4140201212029508922
+    second: RedRoyalGuard_4
+  - first:
+      213: -1814242937304387351
+    second: RedRoyalGuard_5
+  - first:
+      213: 1610993443645753357
+    second: RedRoyalGuard_6
+  - first:
+      213: -5404335482316165786
+    second: RedRoyalGuard_7
+  - first:
+      213: -738902064784552310
+    second: RedRoyalGuard_8
+  - first:
+      213: -4244250694238673178
+    second: RedRoyalGuard_9
+  - first:
+      213: -8224457674924766469
+    second: RedRoyalGuard_10
+  - first:
+      213: -219014664613946597
+    second: RedRoyalGuard_11
+  - first:
+      213: -6260917072617920305
+    second: RedRoyalGuard_12
+  - first:
+      213: -6295071955390127538
+    second: RedRoyalGuard_13
+  - first:
+      213: -492391164513293207
+    second: RedRoyalGuard_14
+  - first:
+      213: -7267726085508592610
+    second: RedRoyalGuard_15
+  - first:
+      213: -4876699867977289193
+    second: RedRoyalGuard_16
+  - first:
+      213: 7001277108177487190
+    second: RedRoyalGuard_17
+  - first:
+      213: 1475200113093442872
+    second: RedRoyalGuard_18
+  - first:
+      213: -132540305492018621
+    second: RedRoyalGuard_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedRoyalGuard_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 118
+        width: 35
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e01ea65911e8a3e0800000000000000
+      internalID: -2042134932067839767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 118
+        width: 36
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76491963bc15885d0800000000000000
+      internalID: -3060106013562530713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 118
+        width: 35
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e0e76b1654d3f60800000000000000
+      internalID: 8015639197765209743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 118
+        width: 36
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0323980684d18b0800000000000000
+      internalID: -5179904416950374146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 118
+        width: 36
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d19ad0113f47930800000000000000
+      internalID: 4140201212029508922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 35
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0f5b929a382d6e0800000000000000
+      internalID: -1814242937304387351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 79
+        width: 35
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d080df760066b5610800000000000000
+      internalID: 1610993443645753357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 79
+        width: 51
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d61812381fff4b0800000000000000
+      internalID: -5404335482316165786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 79
+        width: 52
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec6b8ac74eeb5f0800000000000000
+      internalID: -738902064784552310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 80
+        width: 52
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6e2380b746915c0800000000000000
+      internalID: -4244250694238673178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 40
+        width: 35
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfacfd7d15bdcdd80800000000000000
+      internalID: -8224457674924766469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_11
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 40
+        width: 33
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b951ba257e5fcf0800000000000000
+      internalID: -219014664613946597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_12
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 40
+        width: 32
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc82e6e1811cc19a0800000000000000
+      internalID: -6260917072617920305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 40
+        width: 34
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42a277c86963a8a0800000000000000
+      internalID: -6295071955390127538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 40
+        width: 35
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ce4ac38dcaa29f0800000000000000
+      internalID: -492391164513293207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 35
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c8b6c91a9d32b90800000000000000
+      internalID: -7267726085508592610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 35
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712f405de4b725cb0800000000000000
+      internalID: -4876699867977289193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 35
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6554efe7f68892160800000000000000
+      internalID: 7001277108177487190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_18
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2
+        width: 35
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dfc89dfa6f87410800000000000000
+      internalID: 1475200113093442872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedRoyalGuard_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2
+        width: 35
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34af9bc5b4f192ef0800000000000000
+      internalID: -132540305492018621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

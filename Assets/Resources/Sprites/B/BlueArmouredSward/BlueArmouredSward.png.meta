@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 98f7aaeccb7090d46bd2939030aab23a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8757262374892418008
+    second: BlueArmouredSward_0
+  - first:
+      213: 6377579778864618228
+    second: BlueArmouredSward_1
+  - first:
+      213: 2894916204193839112
+    second: BlueArmouredSward_2
+  - first:
+      213: -952244040977141918
+    second: BlueArmouredSward_3
+  - first:
+      213: 3291705012425307297
+    second: BlueArmouredSward_4
+  - first:
+      213: 148730375877437132
+    second: BlueArmouredSward_5
+  - first:
+      213: -1965482765153773899
+    second: BlueArmouredSward_6
+  - first:
+      213: 6903419935137116604
+    second: BlueArmouredSward_7
+  - first:
+      213: -5901197885284703309
+    second: BlueArmouredSward_8
+  - first:
+      213: -2933967082485733677
+    second: BlueArmouredSward_9
+  - first:
+      213: -8440802629234765741
+    second: BlueArmouredSward_10
+  - first:
+      213: -1338886006181918896
+    second: BlueArmouredSward_11
+  - first:
+      213: 1287710975232591978
+    second: BlueArmouredSward_12
+  - first:
+      213: -2228992856130851045
+    second: BlueArmouredSward_13
+  - first:
+      213: 1289912528651154393
+    second: BlueArmouredSward_14
+  - first:
+      213: 2393838169308548572
+    second: BlueArmouredSward_15
+  - first:
+      213: -8010867372271318073
+    second: BlueArmouredSward_16
+  - first:
+      213: 151331677005751890
+    second: BlueArmouredSward_17
+  - first:
+      213: -787209210842701212
+    second: BlueArmouredSward_18
+  - first:
+      213: -1577672117461142908
+    second: BlueArmouredSward_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueArmouredSward_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cc4ab9444f77680800000000000000
+      internalID: -8757262374892418008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa90fdd407b18850800000000000000
+      internalID: 6377579778864618228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808fe7523fecc2820800000000000000
+      internalID: 2894916204193839112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f23160713f8c2f0800000000000000
+      internalID: -952244040977141918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4bbf2c44c7ead20800000000000000
+      internalID: 3291705012425307297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc62c752d75601200800000000000000
+      internalID: 148730375877437132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 59
+        width: 27
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b65bd2b6d339b4e0800000000000000
+      internalID: -1965482765153773899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 59
+        width: 27
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1b239eadfddcf50800000000000000
+      internalID: 6903419935137116604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 59
+        width: 31
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3a15a0acbba1ea0800000000000000
+      internalID: -5901197885284703309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 59
+        width: 31
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6afb9bb747847d0800000000000000
+      internalID: -2933967082485733677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 30
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3505741eabe3cda80800000000000000
+      internalID: -8440802629234765741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05709c665425b6de0800000000000000
+      internalID: -1338886006181918896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a684c143f4eded110800000000000000
+      internalID: 1287710975232591978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fef6b9ec60111e0800000000000000
+      internalID: -2228992856130851045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3f39d4c90b6e110800000000000000
+      internalID: 1289912528651154393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd4863c12f983120800000000000000
+      internalID: 2393838169308548572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 32
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb400d719ea3d090800000000000000
+      internalID: -8010867372271318073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 38
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2562133cb53a91200800000000000000
+      internalID: 151331677005751890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1
+        width: 38
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4622ecfb4654315f0800000000000000
+      internalID: -787209210842701212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueArmouredSward_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 38
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482b0ba619bfa1ae0800000000000000
+      internalID: -1577672117461142908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: bc8bc1baf7b9d3b4eb2d18415b4ab6a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3232398606768377180
+    second: RedSpeer_0
+  - first:
+      213: -4633751834960190881
+    second: RedSpeer_1
+  - first:
+      213: 3584904510032497306
+    second: RedSpeer_2
+  - first:
+      213: -4562172892026791936
+    second: RedSpeer_3
+  - first:
+      213: 3682954932530206617
+    second: RedSpeer_4
+  - first:
+      213: -8119153750069525113
+    second: RedSpeer_5
+  - first:
+      213: -3511310302342485313
+    second: RedSpeer_6
+  - first:
+      213: 6451018533279170657
+    second: RedSpeer_7
+  - first:
+      213: -3117038444286163848
+    second: RedSpeer_8
+  - first:
+      213: -26589446277384747
+    second: RedSpeer_9
+  - first:
+      213: -2186771301565971817
+    second: RedSpeer_10
+  - first:
+      213: 3763016706904082654
+    second: RedSpeer_11
+  - first:
+      213: 8533683469410938193
+    second: RedSpeer_12
+  - first:
+      213: -5610545321320789277
+    second: RedSpeer_13
+  - first:
+      213: 7587335660646559827
+    second: RedSpeer_14
+  - first:
+      213: 6102240925062887158
+    second: RedSpeer_15
+  - first:
+      213: -1267256703309031614
+    second: RedSpeer_16
+  - first:
+      213: -3639852895018204650
+    second: RedSpeer_17
+  - first:
+      213: -8831423395771501435
+    second: RedSpeer_18
+  - first:
+      213: 2496839467085728911
+    second: RedSpeer_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedSpeer_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 82
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a27a17d7963423d0800000000000000
+      internalID: -3232398606768377180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 82
+        width: 33
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5222ebb14b91bfb0800000000000000
+      internalID: -4633751834960190881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 82
+        width: 30
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ace2288a320c130800000000000000
+      internalID: 3584904510032497306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 82
+        width: 31
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00893d61de7efa0c0800000000000000
+      internalID: -4562172892026791936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 82
+        width: 34
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9975c3d7ffb7c1330800000000000000
+      internalID: 3682954932530206617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 28
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78543527ea8f25f80800000000000000
+      internalID: -8119153750069525113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 55
+        width: 28
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbae4bc32e1554fc0800000000000000
+      internalID: -3511310302342485313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 55
+        width: 29
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16001935d2f968950800000000000000
+      internalID: 6451018533279170657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 55
+        width: 33
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8744619bc0e0eb4d0800000000000000
+      internalID: -3117038444286163848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 55
+        width: 37
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5bcdb1a0981aff0800000000000000
+      internalID: -26589446277384747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7924425561707a1e0800000000000000
+      internalID: -2186771301565971817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 28
+        width: 31
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c0e2f1cbe83430800000000000000
+      internalID: 3763016706904082654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 28
+        width: 31
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dacdbe6ebbd6670800000000000000
+      internalID: 8533683469410938193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_13
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 28
+        width: 31
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eac17691c65322b0800000000000000
+      internalID: -5610545321320789277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 28
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350fd7c7591ab4960800000000000000
+      internalID: 7587335660646559827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 34
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f679305ac38fa450800000000000000
+      internalID: 6102240925062887158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1
+        width: 32
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24758081ebcc96ee0800000000000000
+      internalID: -1267256703309031614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_17
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1
+        width: 30
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61243c5a315ac7dc0800000000000000
+      internalID: -3639852895018204650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 29
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58437f1663b707580800000000000000
+      internalID: -8831423395771501435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSpeer_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 29
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c02d8344e86a220800000000000000
+      internalID: 2496839467085728911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

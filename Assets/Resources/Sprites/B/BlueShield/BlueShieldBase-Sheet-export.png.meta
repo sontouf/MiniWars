@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: e75ea489c425f2540b7902662e514686
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 936378160557182657
+    second: BlueShieldBase-Sheet-export_0
+  - first:
+      213: -6761476504051085948
+    second: BlueShieldBase-Sheet-export_1
+  - first:
+      213: 472178761216610751
+    second: BlueShieldBase-Sheet-export_2
+  - first:
+      213: 620405105041110305
+    second: BlueShieldBase-Sheet-export_3
+  - first:
+      213: 9205800575750212951
+    second: BlueShieldBase-Sheet-export_4
+  - first:
+      213: 8086211903079869880
+    second: BlueShieldBase-Sheet-export_5
+  - first:
+      213: 147878314290964209
+    second: BlueShieldBase-Sheet-export_6
+  - first:
+      213: -5343415556915141200
+    second: BlueShieldBase-Sheet-export_7
+  - first:
+      213: -1090578262131584179
+    second: BlueShieldBase-Sheet-export_8
+  - first:
+      213: 2269906488163259343
+    second: BlueShieldBase-Sheet-export_9
+  - first:
+      213: -3902397501660712355
+    second: BlueShieldBase-Sheet-export_10
+  - first:
+      213: 3306072368034838067
+    second: BlueShieldBase-Sheet-export_11
+  - first:
+      213: -6276446307683576898
+    second: BlueShieldBase-Sheet-export_12
+  - first:
+      213: 7235138844346658108
+    second: BlueShieldBase-Sheet-export_13
+  - first:
+      213: 6256789389480792939
+    second: BlueShieldBase-Sheet-export_14
+  - first:
+      213: -6030622825626171636
+    second: BlueShieldBase-Sheet-export_15
+  - first:
+      213: 3197705949961069224
+    second: BlueShieldBase-Sheet-export_16
+  - first:
+      213: 1860624139308550785
+    second: BlueShieldBase-Sheet-export_17
+  - first:
+      213: 2632038697507099500
+    second: BlueShieldBase-Sheet-export_18
+  - first:
+      213: -1386257698590169379
+    second: BlueShieldBase-Sheet-export_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cec173d9feaefc00800000000000000
+      internalID: 936378160557182657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 79
+        width: 24
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d82e281f86a22a0800000000000000
+      internalID: -6761476504051085948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 79
+        width: 24
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1dcc4e4148d8600800000000000000
+      internalID: 472178761216610751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 79
+        width: 24
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12570dee72f1c9800800000000000000
+      internalID: 620405105041110305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 79
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d8da669d291cf70800000000000000
+      internalID: 9205800575750212951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd6c9d12eef73070800000000000000
+      internalID: 8086211903079869880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 53
+        width: 22
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6eb491b8e5d0200800000000000000
+      internalID: 147878314290964209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 53
+        width: 27
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5e6c29cdf58d5b0800000000000000
+      internalID: -5343415556915141200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 53
+        width: 27
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4352e549dc7dd0f0800000000000000
+      internalID: -1090578262131584179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 53
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3535cace3508f10800000000000000
+      internalID: 2269906488163259343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 27
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d523425e526e7d9c0800000000000000
+      internalID: -3902397501660712355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 27
+        width: 26
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336737a6d4781ed20800000000000000
+      internalID: 3306072368034838067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 27
+        width: 26
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb355b2565595e8a0800000000000000
+      internalID: -6276446307683576898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27
+        width: 23
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3da9ed0270686460800000000000000
+      internalID: 7235138844346658108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 27
+        width: 23
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b639f62ccc494d650800000000000000
+      internalID: 6256789389480792939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 25
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c078030ed7cee4ca0800000000000000
+      internalID: -6030622825626171636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 21
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2259b8e98806c20800000000000000
+      internalID: 3197705949961069224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_17
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 21
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ac004fbc342d910800000000000000
+      internalID: 1860624139308550785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 20
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c631eff0041e68420800000000000000
+      internalID: 2632038697507099500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueShieldBase-Sheet-export_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 19
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6e164c7f503cce0800000000000000
+      internalID: -1386257698590169379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

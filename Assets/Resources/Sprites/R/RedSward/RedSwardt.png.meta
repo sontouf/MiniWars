@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: fde1b04fb81f11b48ae4abea6230031a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2077495735835268960
+    second: RedSwardt_0
+  - first:
+      213: 912818595600352249
+    second: RedSwardt_1
+  - first:
+      213: 4671148030976236715
+    second: RedSwardt_2
+  - first:
+      213: 9049945003402727239
+    second: RedSwardt_3
+  - first:
+      213: 93435731973119196
+    second: RedSwardt_4
+  - first:
+      213: 4281703762940053850
+    second: RedSwardt_5
+  - first:
+      213: -344856182670186050
+    second: RedSwardt_6
+  - first:
+      213: 7327133350409361082
+    second: RedSwardt_7
+  - first:
+      213: 884473487881455376
+    second: RedSwardt_8
+  - first:
+      213: 256379968777878252
+    second: RedSwardt_9
+  - first:
+      213: 8425710509487865234
+    second: RedSwardt_10
+  - first:
+      213: 7288016383875083475
+    second: RedSwardt_11
+  - first:
+      213: -417768740784284150
+    second: RedSwardt_12
+  - first:
+      213: 6506813378794776824
+    second: RedSwardt_13
+  - first:
+      213: -2907841893154972015
+    second: RedSwardt_14
+  - first:
+      213: 3246523485172920373
+    second: RedSwardt_15
+  - first:
+      213: 7792607970885252226
+    second: RedSwardt_16
+  - first:
+      213: 8702136876015460801
+    second: RedSwardt_17
+  - first:
+      213: 3152569807800947721
+    second: RedSwardt_18
+  - first:
+      213: 7283700810291285598
+    second: RedSwardt_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedSwardt_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06799dc5d5fb4dc10800000000000000
+      internalID: 2077495735835268960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f341272dabfaac00800000000000000
+      internalID: 912818595600352249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac9a97a26043d040800000000000000
+      internalID: 4671148030976236715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f04ac280dd79d70800000000000000
+      internalID: 9049945003402727239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 88
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc169d9d43fb4100800000000000000
+      internalID: 93435731973119196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59ce7f03eaab6b30800000000000000
+      internalID: 4281703762940053850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 59
+        width: 27
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a8550123d63bf0800000000000000
+      internalID: -344856182670186050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 59
+        width: 27
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6511d16f43fa560800000000000000
+      internalID: 7327133350409361082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 59
+        width: 31
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017cc6a73f7464c00800000000000000
+      internalID: 884473487881455376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 59
+        width: 31
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaf7862938de8300800000000000000
+      internalID: 256379968777878252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 30
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dbc4a21132ee470800000000000000
+      internalID: 8425710509487865234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dce91e994c342560800000000000000
+      internalID: 7288016383875083475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e5a4f2b89c33af0800000000000000
+      internalID: -417768740784284150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f862de1b48dc4a50800000000000000
+      internalID: 6506813378794776824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 30
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e9f7f543545a7d0800000000000000
+      internalID: -2907841893154972015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 28
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530f1b0b8e7fd0d20800000000000000
+      internalID: 3246523485172920373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 31
+        height: 27
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2843e7a99a7e42c60800000000000000
+      internalID: 7792607970885252226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 38
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1aab1026334c870800000000000000
+      internalID: 8702136876015460801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1
+        width: 38
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904d893898d20cb20800000000000000
+      internalID: 3152569807800947721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedSwardt_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 38
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e03a7db47e41560800000000000000
+      internalID: 7283700810291285598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
