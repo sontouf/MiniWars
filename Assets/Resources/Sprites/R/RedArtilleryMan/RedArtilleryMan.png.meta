@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: c740d9eebb6874c4ba6ad8086009347c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6848377545839125253
+    second: RedArtilleryMan_0
+  - first:
+      213: -5134470155638577380
+    second: RedArtilleryMan_1
+  - first:
+      213: -31666660851704827
+    second: RedArtilleryMan_2
+  - first:
+      213: -2956183659439951605
+    second: RedArtilleryMan_3
+  - first:
+      213: -3912105293645721249
+    second: RedArtilleryMan_4
+  - first:
+      213: 4148971677576656009
+    second: RedArtilleryMan_5
+  - first:
+      213: 697416137231458035
+    second: RedArtilleryMan_6
+  - first:
+      213: -42655190891798063
+    second: RedArtilleryMan_7
+  - first:
+      213: -4949841192866532869
+    second: RedArtilleryMan_8
+  - first:
+      213: -8118122909128121690
+    second: RedArtilleryMan_9
+  - first:
+      213: 4538110265664095438
+    second: RedArtilleryMan_10
+  - first:
+      213: 4983109198076069694
+    second: RedArtilleryMan_11
+  - first:
+      213: 7722938329706557428
+    second: RedArtilleryMan_12
+  - first:
+      213: -4592944308199464671
+    second: RedArtilleryMan_13
+  - first:
+      213: -560396313150209956
+    second: RedArtilleryMan_14
+  - first:
+      213: 24880982273836645
+    second: RedArtilleryMan_15
+  - first:
+      213: -453016132646811699
+    second: RedArtilleryMan_16
+  - first:
+      213: -7496124461562564188
+    second: RedArtilleryMan_17
+  - first:
+      213: 406729588146734859
+    second: RedArtilleryMan_18
+  - first:
+      213: 525153281666790200
+    second: RedArtilleryMan_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,12 +100,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,9 +131,453 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RedArtilleryMan_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503a08bf7135a0f50800000000000000
+      internalID: 6848377545839125253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 91
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c176157d892beb8b0800000000000000
+      internalID: -5134470155638577380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 91
+        width: 43
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c16b8f65f7f8ff0800000000000000
+      internalID: -31666660851704827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 91
+        width: 43
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b017440df9689f6d0800000000000000
+      internalID: -2956183659439951605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 91
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51525076f865b9c0800000000000000
+      internalID: -3912105293645721249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984fc1132cb149930800000000000000
+      internalID: 4148971677576656009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 61
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe5e402848bda900800000000000000
+      internalID: 697416137231458035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 61
+        width: 41
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d161137455786ff0800000000000000
+      internalID: -42655190891798063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 61
+        width: 50
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1389419a1ae4bb0800000000000000
+      internalID: -4949841192866532869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 61
+        width: 49
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2257ec932a65f80800000000000000
+      internalID: -8118122909128121690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec446702e3b9afe30800000000000000
+      internalID: 4538110265664095438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 31
+        width: 43
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e374e4cf96f872540800000000000000
+      internalID: 4983109198076069694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 31
+        width: 41
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff68643e736d2b60800000000000000
+      internalID: 7722938329706557428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 31
+        width: 42
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1216e947c759240c0800000000000000
+      internalID: -4592944308199464671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 31
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c504e35b5821938f0800000000000000
+      internalID: -560396313150209956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566481e1f15685000800000000000000
+      internalID: 24880982273836645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 43
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7c0104a3096b9f0800000000000000
+      internalID: -453016132646811699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 42
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a17274b48a68f790800000000000000
+      internalID: -7496124461562564188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_18
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1
+        width: 48
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07802dc76ef4a500800000000000000
+      internalID: 406729588146734859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedArtilleryMan_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1
+        width: 49
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83331669028b94700800000000000000
+      internalID: 525153281666790200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Blue
   - Red
+  - Sward
+  - Archer
+  - ArmouredSward
   layers:
   - Default
   - TransparentFX

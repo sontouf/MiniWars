@@ -1,0 +1,104 @@
+fileFormatVersion: 2
+guid: 89cce18e6873a88469f8e806489161c9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - blueSward1: {fileID: 8081325410443399776, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward2: {fileID: 652373667783890253, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward3: {fileID: -8504275968227194930, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward4: {fileID: 6904292882297916971, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward5: {fileID: 7155596589176060071, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward6: {fileID: -2569724273708490762, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward7: {fileID: 6611902891831668106, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward8: {fileID: 1668074967247317314, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueSward9: {fileID: 3478896239705418897, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueArcher1: {fileID: -6134993024612772356, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueArcher2: {fileID: 7870034297536725797, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueArcher3: {fileID: -7598586774381591490, guid: 169ba2b65b1f9294193318b846041759,
+      type: 3}
+  - blueArcher4: {instanceID: 0}
+  - blueArcher5: {instanceID: 0}
+  - blueArcher6: {instanceID: 0}
+  - blueArcher7: {instanceID: 0}
+  - blueArcher8: {instanceID: 0}
+  - blueArcher9: {instanceID: 0}
+  - blueArmouredSward1: {instanceID: 0}
+  - blueArmouredSward2: {instanceID: 0}
+  - blueArmouredSward3: {instanceID: 0}
+  - blueArmouredSward4: {instanceID: 0}
+  - blueArmouredSward5: {instanceID: 0}
+  - blueArmouredSward6: {instanceID: 0}
+  - blueArmouredSward7: {instanceID: 0}
+  - blueArmouredSward8: {instanceID: 0}
+  - blueArmouredSward9: {instanceID: 0}
+  - blueSwardOff1: {instanceID: 0}
+  - blueSwardOff2: {instanceID: 0}
+  - blueSwardOff3: {instanceID: 0}
+  - blueSwardOff4: {instanceID: 0}
+  - blueSwardOff5: {instanceID: 0}
+  - blueSwardOff6: {instanceID: 0}
+  - blueSwardOff7: {instanceID: 0}
+  - blueSwardOff8: {instanceID: 0}
+  - blueSwardOff9: {instanceID: 0}
+  - blueArcherOff1: {instanceID: 0}
+  - blueArcherOff2: {instanceID: 0}
+  - blueArcherOff3: {instanceID: 0}
+  - blueArcherOff4: {instanceID: 0}
+  - blueArcherOff5: {instanceID: 0}
+  - blueArcherOff6: {instanceID: 0}
+  - blueArcherOff7: {instanceID: 0}
+  - blueArcherOff8: {instanceID: 0}
+  - blueArcherOff9: {instanceID: 0}
+  - blueArmouredSwardOff1: {instanceID: 0}
+  - blueArmouredSwardOff2: {instanceID: 0}
+  - blueArmouredSwardOff3: {instanceID: 0}
+  - blueArmouredSwardOff4: {instanceID: 0}
+  - blueArmouredSwardOff5: {instanceID: 0}
+  - blueArmouredSwardOff6: {instanceID: 0}
+  - blueArmouredSwardOff7: {instanceID: 0}
+  - blueArmouredSwardOff8: {instanceID: 0}
+  - blueArmouredSwardOff9: {instanceID: 0}
+  - redSward1: {instanceID: 0}
+  - redSward2: {instanceID: 0}
+  - redSward3: {instanceID: 0}
+  - redSward4: {instanceID: 0}
+  - redSward5: {instanceID: 0}
+  - redSward6: {instanceID: 0}
+  - redSward7: {instanceID: 0}
+  - redSward8: {instanceID: 0}
+  - redSward9: {instanceID: 0}
+  - redArcher1: {instanceID: 0}
+  - redArcher2: {instanceID: 0}
+  - redArcher3: {instanceID: 0}
+  - redArcher4: {instanceID: 0}
+  - redArcher5: {instanceID: 0}
+  - redArcher6: {instanceID: 0}
+  - redArcher7: {instanceID: 0}
+  - redArcher8: {instanceID: 0}
+  - redArcher9: {instanceID: 0}
+  - redArmouredSward1: {instanceID: 0}
+  - redArmouredSward2: {instanceID: 0}
+  - redArmouredSward3: {instanceID: 0}
+  - redArmouredSward4: {instanceID: 0}
+  - redArmouredSward5: {instanceID: 0}
+  - redArmouredSward6: {instanceID: 0}
+  - redArmouredSward7: {instanceID: 0}
+  - redArmouredSward8: {instanceID: 0}
+  - redArmouredSward9: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

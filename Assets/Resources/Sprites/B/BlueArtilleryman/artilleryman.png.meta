@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 54c59c97a27d11845b15d0a7cfba3e72
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3979371068410935260
+    second: artilleryman_0
+  - first:
+      213: 4629958125395143571
+    second: artilleryman_1
+  - first:
+      213: 6693509178061467925
+    second: artilleryman_2
+  - first:
+      213: 8044759231420013414
+    second: artilleryman_3
+  - first:
+      213: 7590301657387296073
+    second: artilleryman_4
+  - first:
+      213: -2702856489061471088
+    second: artilleryman_5
+  - first:
+      213: 3530135326134530117
+    second: artilleryman_6
+  - first:
+      213: -7477216226815984537
+    second: artilleryman_7
+  - first:
+      213: -7756055794903464839
+    second: artilleryman_8
+  - first:
+      213: -3917927163729473913
+    second: artilleryman_9
+  - first:
+      213: 342918845458841070
+    second: artilleryman_10
+  - first:
+      213: -221256284535192430
+    second: artilleryman_11
+  - first:
+      213: -5965563702426446040
+    second: artilleryman_12
+  - first:
+      213: 8119662727024097891
+    second: artilleryman_13
+  - first:
+      213: -7115018055034007716
+    second: artilleryman_14
+  - first:
+      213: 3067750740364493034
+    second: artilleryman_15
+  - first:
+      213: 7678717113714791268
+    second: artilleryman_16
+  - first:
+      213: 1242781759851150107
+    second: artilleryman_17
+  - first:
+      213: -8451110841813503042
+    second: artilleryman_18
+  - first:
+      213: 6268405608178544206
+    second: artilleryman_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,12 +100,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,9 +131,453 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: artilleryman_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7b91237e0993730800000000000000
+      internalID: 3979371068410935260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 91
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b6c1d626ae04040800000000000000
+      internalID: 4629958125395143571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 91
+        width: 43
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511bb2b322f14ec50800000000000000
+      internalID: 6693509178061467925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 91
+        width: 43
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b9554e5e9b4af60800000000000000
+      internalID: 8044759231420013414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 91
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945e0aa642b265960800000000000000
+      internalID: 7590301657387296073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ca1a2f7568d7ad0800000000000000
+      internalID: -2702856489061471088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 61
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407e4b206f8df030800000000000000
+      internalID: 3530135326134530117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 61
+        width: 41
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cb8db25779b3890800000000000000
+      internalID: -7477216226815984537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 61
+        width: 50
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9744bae0954fc5490800000000000000
+      internalID: -7756055794903464839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 61
+        width: 49
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e0d0ea00ab0a9c0800000000000000
+      internalID: -3917927163729473913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed7c528fda42c400800000000000000
+      internalID: 342918845458841070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 31
+        width: 43
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29405fbd490fdecf0800000000000000
+      internalID: -221256284535192430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 31
+        width: 41
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82758e76b6f063da0800000000000000
+      internalID: -5965563702426446040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 31
+        width: 42
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a304cfa36dea070800000000000000
+      internalID: 8119662727024097891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 31
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f0533a6c0624d90800000000000000
+      internalID: -7115018055034007716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 43
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae00ed27b07d29a20800000000000000
+      internalID: 3067750740364493034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 43
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463dea50888409a60800000000000000
+      internalID: 7678717113714791268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 42
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b33411d6f3f3110800000000000000
+      internalID: 1242781759851150107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_18
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1
+        width: 48
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f04c177f97ba80800000000000000
+      internalID: -8451110841813503042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artilleryman_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1
+        width: 49
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e6c8f60b9ddf650800000000000000
+      internalID: 6268405608178544206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
