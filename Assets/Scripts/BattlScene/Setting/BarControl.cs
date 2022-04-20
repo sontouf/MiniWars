@@ -9,6 +9,8 @@ public class BarControl : MonoBehaviour
     public BlueCost blueCost;
     public float ratio;
     public Text costText;
+    public RedCost redCost;
+    public Text redCostText;
     public Text costShadowText;
     RectTransform rectTransform;
     public Vector2 need;
@@ -33,6 +35,7 @@ public class BarControl : MonoBehaviour
         width = ratio * need.x;
         rectTransform.sizeDelta = new Vector2(width, height);
         costText.text = "" + blueCost.cost + "/" + blueCost.maxCost;
+        redCostText.text = "" + redCost.cost + "/" + redCost.maxCost;
         costShadowText.text = "" + blueCost.cost + "/" + blueCost.maxCost;
 
     }

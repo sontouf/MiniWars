@@ -4,12 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle manager 가 더 맞는 느낌.
 {
-    public UnitSpriteManager unitSpriteManager;
+    public UnitSpriteManager unitSpriteManager; // unit slot sprite 배치를 위해 sprite manager를 받아온다.
     public int bluePath;
     int redPath;
 
+    //----------- battle 중 upgrade에 필요한 변수들.
     public int blueUnitLevel;
     static public int blueCurUnitNumber;
     public int blueMaxUnitNumber;
@@ -21,6 +22,8 @@ public class GameManager : MonoBehaviour
     public int blueCastleLevel;
     public int redCastleLevel;
 
+    // --------------------------------------------------------
+    // Prefab 정보.
     public GameObject swardPrefab;
     public GameObject archerPrefab;
     public GameObject armouredSwardPrefab;
@@ -30,6 +33,9 @@ public class GameManager : MonoBehaviour
     public GameObject shieldPrefab;
     public GameObject spearManPrefab;
     public GameObject artilleryManPrefab;
+
+    // --------------------------------------------------------
+
     public GameObject bluePosition;
 
     public GameObject canvasObject;
@@ -73,12 +79,13 @@ public class GameManager : MonoBehaviour
         unitCountCost.text = "" + blueUnitLevel * 10;
         blueMaxUnitNumber = blueUnitLevel * 10;
 
-        for (int i = 0; i < UnitBox.selectedUnitNumber; i++)
+        // 왼쪽 유닛 선택창의 sprite 배치 코드
+        for (int i = 0; i < UnitBox.selectedUnitNumber; i++) // 이전 페이지에서 선택된 유닛 순서대로 battle씬에서 배치하고자 한다.
         {
-            unitSlot[i].GetComponent<Image>().sprite = SlotSetting(unitSlot[i], i);
+            unitSlot[i].GetComponent<Image>().sprite = SlotSetting(unitSlot[i], i); 
             unitSlot[i].GetComponent<SlotScript>().isUnit = true;
         }
-        for (int i = UnitBox.selectedUnitNumber; i < PlayerData.unlockUnitNumber; i++)
+        for (int i = UnitBox.selectedUnitNumber; i < PlayerData.unlockUnitNumber; i++) // 선택 안된애들은 empty sprite를 가지게 된다.
         {
             unitSlot[i].GetComponent<Image>().sprite = empty;
         }
@@ -117,7 +124,7 @@ public class GameManager : MonoBehaviour
     // Upgrade Castle && UnitCount
     public void Castle()
     {
-        if (blueCost.cost == blueCost.maxCost)
+        if (!stageEnd && blueCost.cost == blueCost.maxCost)
         {
             blueCost.cost -= blueCost.maxCost;
             blueCastleLevel += 1;
@@ -125,7 +132,7 @@ public class GameManager : MonoBehaviour
     }
     public void UnitCount()
     {
-        if (blueCost.cost >= blueUnitLevel * 10 && blueUnitLevel < 4)
+        if (!stageEnd && blueCost.cost >= blueUnitLevel * 10 && blueUnitLevel < 4)
         {
             blueCost.cost -= blueUnitLevel * 10;
             blueUnitLevel += 1;
@@ -135,9 +142,12 @@ public class GameManager : MonoBehaviour
 
     }
 
+    
+    // --------------------------------------------------------------------------------
+    // Unit Buttons
     public void SwardButton()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 3)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 3)
         {
             GameObject target = Instantiate(swardPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -147,7 +157,7 @@ public class GameManager : MonoBehaviour
     }
     public void ArcherButton()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 5)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 5)
         {
             GameObject target = Instantiate(archerPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -157,7 +167,7 @@ public class GameManager : MonoBehaviour
     }
     public void ShieldButton()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 20)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 20)
         {
             GameObject target = Instantiate(shieldPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -167,7 +177,7 @@ public class GameManager : MonoBehaviour
     }
     public void ArmouredSwardButton()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 7)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 7)
         {
             GameObject target = Instantiate(armouredSwardPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -177,7 +187,7 @@ public class GameManager : MonoBehaviour
     }
     public void PatrolButton()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 11)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 11)
         {
             GameObject target = Instantiate(patrolPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -187,7 +197,7 @@ public class GameManager : MonoBehaviour
     }
     public void SpearManButton()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 15)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 15)
         {
             GameObject target = Instantiate(spearManPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -197,7 +207,7 @@ public class GameManager : MonoBehaviour
     }
     public void Cavalry()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 30)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 30)
         {
             GameObject target = Instantiate(cavalryPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -208,7 +218,7 @@ public class GameManager : MonoBehaviour
     }
     public void ArtilleryMan()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 30)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 30)
         {
             GameObject target = Instantiate(artilleryManPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -219,7 +229,7 @@ public class GameManager : MonoBehaviour
     }
     public void RoyalGuard()
     {
-        if (blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 50)
+        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 50)
         {
             GameObject target = Instantiate(royalGuardPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
             blueCurUnitNumber += 1;
@@ -228,31 +238,28 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // --------------------------------------------------------------------------------
+
+
+    // --------------------------------------------------------------------------------
+    // Result function
     public void Result(bool win)
     {
         GameObject[] playerUnits = GameObject.FindGameObjectsWithTag("Blue");
         GameObject[] enemyUnits = GameObject.FindGameObjectsWithTag("Red");
-        if (win)
-        {
-            hpCanvas.SetActive(false);
-            controlSet.SetActive(false);
-            AllUnitEnable(playerUnits, enemyUnits);
-            resetButton.SetActive(true);
-            victory.SetActive(true);
 
-        }
+        hpCanvas.SetActive(false);
+        controlSet.SetActive(false);
+        AllUnitEnableOff(playerUnits, enemyUnits);
+        resetButton.SetActive(true);
+        if (win)
+            victory.SetActive(true);
         else
-        {
-            hpCanvas.SetActive(false);
-            controlSet.SetActive(false);
-            AllUnitEnable(playerUnits, enemyUnits);
-            resetButton.SetActive(true);
             defeat.SetActive(true);
-        }
     }
 
 
-    public void AllUnitEnable(GameObject[] playerUnits, GameObject[] enemyUnits)
+    public void AllUnitEnableOff(GameObject[] playerUnits, GameObject[] enemyUnits)
     {
         foreach (GameObject playerUnit in playerUnits)
         {
@@ -274,9 +281,14 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    // --------------------------------------------------------------------------------
+
+
+
 
     public GameObject CreateUnitPosition(GameObject target)
     {
+        // MiniMap의 유닛 위치를 생성해주는 함수이다.인자로 위치표시가 필요한 target이 들어온다.
         child = Instantiate(bluePosition);
         child.transform.SetParent(canvasObject.transform);
 
@@ -307,8 +319,10 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public Sprite SlotSetting(GameObject gameObject, int idx)
+    public Sprite SlotSetting(GameObject gameObject, int idx) 
     {
+        // Battle 시작시 왼쪽에 나열된 유닛창에 대한 정보. 한 슬롯에 대해 적용된다.
+        // 어떠한 한 슬롯이 인자로 들어오고 그 슬롯의 위치인 idx가 인자로 들어와서 UnitBox에서 정보를 받아와 순서대로 sprite가 적용이 된다.
         int id = UnitBox.selectedUnitIds[idx];
         int tribe, unit, level;
         tribe = id / 10000;
@@ -345,6 +359,14 @@ public class GameManager : MonoBehaviour
                         slotScript.limitStateSprite = unitSpriteManager.blueArmouredSwardOffList[level];
                         slotScript.coolTime = 7f;
                         gameObject.tag = "ArmouredSward";
+                        break;
+                    case 5:
+                        gameObject.GetComponent<Image>().sprite = unitSpriteManager.bluePatrolList[level];
+                        slotScript.rawSprite = unitSpriteManager.bluePatrolList[level];
+                        slotScript.cost = 11;
+                        slotScript.limitStateSprite = unitSpriteManager.bluePatrolOffList[level];
+                        slotScript.coolTime = 7f;
+                        gameObject.tag = "Patrol";
                         break;
                 }
                 break;

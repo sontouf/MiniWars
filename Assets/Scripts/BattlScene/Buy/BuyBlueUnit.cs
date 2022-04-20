@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuyBlueUnit : MonoBehaviour
+public class BuyBlueUnit : MonoBehaviour // 얘는 아직 안 쓰이는 스크립트
 {
     int level;
     bool isWizard;
@@ -20,7 +20,7 @@ public class BuyBlueUnit : MonoBehaviour
 
     public void SwardButton()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bSwardPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;
@@ -28,7 +28,7 @@ public class BuyBlueUnit : MonoBehaviour
     }
     public void ArcherButton()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bArcherPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;
@@ -36,7 +36,7 @@ public class BuyBlueUnit : MonoBehaviour
     }
     public void ShieldButton()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bShieldPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;
@@ -44,7 +44,7 @@ public class BuyBlueUnit : MonoBehaviour
     }
     public void ArmouredSwardButton()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bArmouredSwardPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;
@@ -52,7 +52,7 @@ public class BuyBlueUnit : MonoBehaviour
     }
     public void PatrolButton()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bPatrolPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;
@@ -60,7 +60,7 @@ public class BuyBlueUnit : MonoBehaviour
     }
     public void SpearManButton()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bSpearManPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;
@@ -68,7 +68,7 @@ public class BuyBlueUnit : MonoBehaviour
     }
     public void Cavalry()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bCavalryPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;
@@ -76,7 +76,7 @@ public class BuyBlueUnit : MonoBehaviour
     }
     public void RoyalGuard()
     {
-        if (GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
+        if (!gameManager.stageEnd && GameManager.blueCurUnitNumber < gameManager.blueMaxUnitNumber)
         {
             Instantiate(bRoyalGuardPrefab, new Vector3(-15, gameManager.bluePath, 0), Quaternion.identity);
             GameManager.blueCurUnitNumber += 1;

@@ -6,7 +6,7 @@ public class AI : MonoBehaviour
 {
     public RedCost redCost;
     int pattern;
-
+    float second = RedCost.waitforsecond;
     public GameObject swardPrefab;
     public GameObject archerPrefab;
     public GameObject armouredSwardPrefab;
@@ -31,6 +31,7 @@ public class AI : MonoBehaviour
     public int pattern3Count;
 
     public int nextPattern;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -46,12 +47,12 @@ public class AI : MonoBehaviour
         bool patternEnd = false;
         while (!patternEnd && !gameManager.stageEnd)
         {
-            if (redCost.cost >= 8 && GameManager.redCurUnitNumber < gameManager.blueMaxUnitNumber)
-            {
+            if (redCost.cost >= 8 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+            { // 일단 8만큼 채움.
                 redPath = Random.Range(-1, 2);
                 int rand = Random.Range(0, 2);
                 GameObject target;
-                switch (rand)
+                switch (rand)// 2마리 생산하긴 할건데 일단 궁수나 검사 랜덤으로 한명.
                 {
                     case 0:
                         target = Instantiate(swardPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
@@ -66,11 +67,11 @@ public class AI : MonoBehaviour
                         target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
                         break;
                 }
-                if (redCost.cost >= 5 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+                if (GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
                 {
                     redPath = Random.Range(-1, 2);
-                    int nextRand = Random.Range(0, 3);
-                    switch (nextRand)
+                    rand = Random.Range(0, 3);
+                    switch (rand) // 2번째 병사를 뽑을건데 안 뽑을수도 있긴함.
                     {
                         case 0:
                             target = Instantiate(swardPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
@@ -80,11 +81,12 @@ public class AI : MonoBehaviour
                             break;
                         case 1:
                             target = Instantiate(archerPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
-                            redCost.cost -= 5;
+                            if (redCost.cost >= 5)
+                                redCost.cost -= 5;
+                            else
+                                redCost.cost -= 3;
                             GameManager.redCurUnitNumber += 1;
                             target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
-                            break;
-                        case 2:
                             break;
                     }
                 }
@@ -92,19 +94,19 @@ public class AI : MonoBehaviour
 
             }
 
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(second);
         }
-
+        //Debug.Log("pattern end");
         SetPattern();
     }
 
     // 6까지 모으고 검사 2명 소환.
-    IEnumerator SwardAndSward()
+    IEnumerator SwardAndSward() // second초후에 끝나는 명령어.
     {
         bool patternEnd = false;
         while (!patternEnd && !gameManager.stageEnd)
         {
-            if (redCost.cost >= 6 && GameManager.redCurUnitNumber < gameManager.blueMaxUnitNumber)
+            if (redCost.cost >= 6 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
             {
                 GameObject target;
                 for (int i = 0; i < 2; i++)
@@ -116,10 +118,39 @@ public class AI : MonoBehaviour
                     target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
                 }
                 patternEnd = true;
-
             }
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(second);
         }
+        //Debug.Log("pattern end");
+        SetPattern();
+    }
+
+    IEnumerator ArmouredSwardAndSward()
+    {
+        bool patternEnd = false;
+        GameObject target;
+        while (!patternEnd && !gameManager.stageEnd)
+        {
+            if (redCost.cost >= 7 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+            {
+                redPath = Random.Range(-1, 2);
+                target = Instantiate(armouredSwardPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
+                redCost.cost -= 7;
+                GameManager.redCurUnitNumber += 1;
+                target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
+            }
+            else if (redCost.cost >= 3 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+            {
+                redPath = Random.Range(-1, 2);
+                target = Instantiate(swardPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
+                redCost.cost -= 3;
+                GameManager.redCurUnitNumber += 1;
+                target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
+                patternEnd = true;
+            }
+            yield return new WaitForSeconds(second);
+        }
+        //Debug.Log("pattern end");
         SetPattern();
     }
 
@@ -134,8 +165,9 @@ public class AI : MonoBehaviour
                 patternEnd = true;
             }
 
-            yield return  new WaitForSeconds(1.5f);
+            yield return  new WaitForSeconds(second);
         }
+        //Debug.Log("UpUnitLevel End");
         SetPattern();
     }
 
@@ -150,12 +182,13 @@ public class AI : MonoBehaviour
                 patternEnd = true;
             }
 
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(second);
         }
+        //Debug.Log("pattern end");
         SetPattern();
     }
 
-    IEnumerator SaveCost()
+    IEnumerator SaveCost() // 잔고 80%이상 될때까지 돈 모으기.
     {
         bool patternEnd = false;
         while (!patternEnd && !gameManager.stageEnd)
@@ -164,8 +197,9 @@ public class AI : MonoBehaviour
             {
                 patternEnd = true;
             }
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(second);
         }
+        //Debug.Log("pattern end");
         SetPattern();
     }
 
@@ -219,99 +253,62 @@ public class AI : MonoBehaviour
 
     public void SetPattern()
     {
-        int firstP = Random.Range(0, 20);
-        if (firstP >= 0 && firstP < 6)
+        //--------------------------------------- 인구수에 따른 판단.
+        if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.7f && redCost.maxCost >= gameManager.redUnitLevel * 10)
         {
-            pattern = 0;
+            pattern = 2; // 인구가 많으니 인구수 업을 해야겠다.
+            if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.85f)
+                pattern = 2; // 아 인구너무 많아 인구 업!
+            else if (redCost.cost >= redCost.maxCost * 0.8f)
+                pattern = 3; // 근데 돈도 많네? 성 업글하고 인구수 해결하자.
+            else if (redCost.cost >= redCost.maxCost * 0.3f)// 인구가 좀 많긴한데 돈 모아도 되겠다.
+                pattern = 4;
         }
-        else if (firstP >= 6 && firstP < 12)
+        else if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.3f && redCost.maxCost >= gameManager.redUnitLevel * 10)
         {
-            pattern = 1;
+            pattern = Random.Range(0, 2); // 아 일단 병사들 뽑아야함.
+            if (gameManager.redCastleLevel > 1) // 혹시나 성업글 2이상이면 갑옷병 슬슬 뽑아보자.
+                pattern = 5;
         }
-        else if (firstP >= 12 && firstP < 16&& GameManager.redCurUnitNumber > 5)
+        else // 인구수가 없거나 인구수가 많아도 성레벨이 딸려서 어차피 인구수 레벨업 못할경우. 
         {
-            pattern = 3;
-        }
-        else if (firstP >= 16 && firstP < 20)
-        {
-            pattern = 4;
+            if (redCost.cost <= redCost.maxCost * 0.3f) // 인구 없는데 돈도 없다.
+                pattern = 4; // 돈 모으자.
+            else if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.8f) // 인구가 많아서 인구수 레벨업해야하는데 성레벨 딸리는 경우
+                pattern = 3;
+            else  //인구 없는데 돈은 있다.
+                pattern = Random.Range(0, 2); // 돈은 좀 있으니 병사 뽑자.
         }
 
-        if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.7f && gameManager.redUnitLevel < 4)
-        {
-            int p = Random.Range(0, 12);
-            if (p >= 0 && p < 7)
-            {
-                Debug.Log("a : " + GameManager.redCurUnitNumber + " , " + gameManager.redMaxUnitNumber * 0.7f);
-                pattern = 2;
-            }
-            else if (p >= 7 && p <10)
-            {
-                int pp = Random.Range(0, 2);
-                if (pp == 0)
-                {
-                    pattern = 1;
-                }
-                else if (pp == 1)
-                {
-                    pattern = 0;
-              
-                }
-            }
-            else
-            {
-                pattern = 4;
-            }
-        }
-        else if(redCost.cost >= redCost.maxCost * 0.5f && gameManager.redCastleLevel < 5 && GameManager.redCurUnitNumber > 5 )
-        { 
-            int p = Random.Range(0, 12);
-            if (p >= 0 && p < 6 )
-            {
-                pattern = 3;
-            }
-            else if (p >= 6 && p < 10)
-            {
-                int pp = Random.Range(0, 2);
-                if (pp == 0)
-                {
-                    pattern = 1;
-                }
-                else if (pp == 1)
-                {
-                    pattern = 0;
-                }
-            }
-            else
-            {
-                pattern = 4;
-            }
-        }
-        if (redCost.cost == redCost.maxCost)
-        {
-            pattern = 3;
-        }
         if (!gameManager.stageEnd)
         {
             switch (pattern)
             {
                 case 0:
+                    Debug.Log("pattern : ArcherAndSward");
                     StartCoroutine("ArcherAndSward");
                     break;
                 case 1:
+                    Debug.Log("pattern : SwardAndSward");
                     StartCoroutine("SwardAndSward");
                     break;
                 case 2:
+                    Debug.Log("pattern : UpUnitLevel");
                     StartCoroutine("UpUnitLevel");
                     break;
                 case 3:
+                    Debug.Log("pattern : UpCastleLevel");
                     StartCoroutine("UpCastleLevel");
                     break;
                 case 4:
+                    Debug.Log("pattern : SaveCost");
                     StartCoroutine("SaveCost");
+                    break;
+                case 5:
+                    Debug.Log("pattern : ArmouredSwardAndSward");
+                    StartCoroutine("ArmouredSwardAndSward");
                     break;
             }
         }
     }
-
 }

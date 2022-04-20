@@ -31,7 +31,7 @@ public class ClickUnitButton : MonoBehaviour
 
     }
 
-    public void CheckEmpty()
+    public void CheckEmpty() // empty에 해당하는 첫 위치를 찾기.
     {
         for (int i = 0; i < 8; i++)
         {
@@ -44,7 +44,7 @@ public class ClickUnitButton : MonoBehaviour
         }
     }
 
-    public void CheckObject()
+    public void CheckObject() // 선택한 
     {
         for ( int i = 0; i < 8; i++)
         {

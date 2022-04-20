@@ -8,6 +8,7 @@ public class RedCost : MonoBehaviour
     public int plusCost;
     public int maxCost;
     public GameManager gameManager;
+    public static float waitforsecond = 0.8f;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +39,7 @@ public class RedCost : MonoBehaviour
 
             }
 
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(waitforsecond);
         }
     }
     public int CostPlus(int CastleLevel)

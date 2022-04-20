@@ -19,13 +19,14 @@ public class UnitSpriteManager : MonoBehaviour
     public List<Sprite> blueSwardList = new List<Sprite>();
     public List<Sprite> blueArcherList = new List<Sprite>();
     public List<Sprite> blueArmouredSwardList = new List<Sprite>();
+    public List<Sprite> bluePatrolList = new List<Sprite>();
 
     // playerUnit OFF;
 
     public List<Sprite> blueSwardOffList = new List<Sprite>();
     public List<Sprite> blueArcherOffList = new List<Sprite>();
     public List<Sprite> blueArmouredSwardOffList = new List<Sprite>();
-
+    public List<Sprite> bluePatrolOffList = new List<Sprite>();
 
 
     // enemyUnit
@@ -33,6 +34,7 @@ public class UnitSpriteManager : MonoBehaviour
     public List<Sprite> redSwardList = new List<Sprite>();
     public List<Sprite> redArcherList = new List<Sprite>();
     public List<Sprite> redArmouredSwardList = new List<Sprite>();
+    public List<Sprite> redPatrolList = new List<Sprite>();
 
 
 
@@ -57,6 +59,10 @@ public class UnitSpriteManager : MonoBehaviour
                 {
                     blueArmouredSwardList.Add(playerAndEnemyUnitSpritesOn[i]);
                 }
+                else if (i % 9 == 5)
+                {
+                    bluePatrolList.Add(playerAndEnemyUnitSpritesOn[i]);
+                }
             }
             else
             {
@@ -71,6 +77,10 @@ public class UnitSpriteManager : MonoBehaviour
                 else if (i % 9 == 2)
                 {
                     redArmouredSwardList.Add(playerAndEnemyUnitSpritesOn[i]);
+                }
+                else if (i % 9 == 5)
+                {
+                    redPatrolList.Add(playerAndEnemyUnitSpritesOn[i]);
                 }
             }
 
@@ -91,6 +101,10 @@ public class UnitSpriteManager : MonoBehaviour
                 else if (i % 9 == 2)
                 {
                     blueArmouredSwardOffList.Add(playerUnitSpritesOff[i]);
+                }
+                else if (i % 9 == 5)
+                {
+                    bluePatrolOffList.Add(playerUnitSpritesOff[i]);
                 }
             }
 

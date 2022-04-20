@@ -11,7 +11,7 @@ public class Patrol : UnitInfo
         curHp = maxHp;
         damage = 10;
         speed *= 3;
-        atkCooltime = 0.5f;
+        atkCooltime = 0.1f;
 
     }
 
