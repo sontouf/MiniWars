@@ -1023,18 +1023,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAndEnemyUnitSpritesOn: []
   playerUnitSpritesOff: []
-  blueSwardList: []
-  blueArcherList: []
-  blueArmouredSwardList: []
-  bluePatrolList: []
-  blueSwardOffList: []
-  blueArcherOffList: []
-  blueArmouredSwardOffList: []
-  bluePatrolOffList: []
-  redSwardList: []
-  redArcherList: []
-  redArmouredSwardList: []
-  redPatrolList: []
 --- !u!114 &110484022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1047,9 +1035,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dc9545d0a124ab4ba9dc9abd31027d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: 0
-  upGradeCoin: 0
-  hero: {fileID: 0}
 --- !u!1 &127645548
 GameObject:
   m_ObjectHideFlags: 0
@@ -6266,12 +6251,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df6ffb23e20a374080f2d45ab684020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerData: {fileID: 110484022}
   unitSpriteManager: {fileID: 110484021}
   openPage: {fileID: 0}
-  page1: {fileID: 1012015750}
-  page2: {fileID: 1807203398}
-  page3: {fileID: 1650534768}
+  pages:
+  - {fileID: 1012015750}
+  - {fileID: 1807203398}
+  - {fileID: 1650534768}
   pageUnits:
   - {fileID: 904992819}
   - {fileID: 1206623851}

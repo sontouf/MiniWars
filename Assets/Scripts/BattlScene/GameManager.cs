@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
 
     // --------------------------------------------------------
     // Prefab 정보.
-    public GameObject swardPrefab;
+/*    public GameObject swardPrefab;
     public GameObject archerPrefab;
     public GameObject armouredSwardPrefab;
     public GameObject cavalryPrefab;
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
     public GameObject royalGuardPrefab;
     public GameObject shieldPrefab;
     public GameObject spearManPrefab;
-    public GameObject artilleryManPrefab;
+    public GameObject artilleryManPrefab;*/
 
     // --------------------------------------------------------
 
@@ -142,104 +142,6 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
 
     }
 
-    
-    // --------------------------------------------------------------------------------
-    // Unit Buttons
-    public void SwardButton()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 3)
-        {
-            GameObject target = Instantiate(swardPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 3;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-        }
-    }
-    public void ArcherButton()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 5)
-        {
-            GameObject target = Instantiate(archerPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 5;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-        }
-    }
-    public void ShieldButton()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 20)
-        {
-            GameObject target = Instantiate(shieldPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 20;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-        }
-    }
-    public void ArmouredSwardButton()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 7)
-        {
-            GameObject target = Instantiate(armouredSwardPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 7;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-        }
-    }
-    public void PatrolButton()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 11)
-        {
-            GameObject target = Instantiate(patrolPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 11;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-        }
-    }
-    public void SpearManButton()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 15)
-        {
-            GameObject target = Instantiate(spearManPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 15;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-        }
-    }
-    public void Cavalry()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 30)
-        {
-            GameObject target = Instantiate(cavalryPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 30;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-
-        }
-    }
-    public void ArtilleryMan()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 30)
-        {
-            GameObject target = Instantiate(artilleryManPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 30;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-
-        }
-    }
-    public void RoyalGuard()
-    {
-        if (!stageEnd && blueCurUnitNumber < blueMaxUnitNumber && blueCost.cost >= 50)
-        {
-            GameObject target = Instantiate(royalGuardPrefab, new Vector3(-18, bluePath, 0), Quaternion.identity);
-            blueCurUnitNumber += 1;
-            blueCost.cost -= 50;
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
-        }
-    }
-
-    // --------------------------------------------------------------------------------
-
 
     // --------------------------------------------------------------------------------
     // Result function
@@ -331,45 +233,20 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
         id %= 100;
         level = id;
         SlotScript slotScript = gameObject.GetComponent<SlotScript>();
-        switch (tribe)
+        if (tribe == 1)
         {
-            case 1:
                 //switch (unit)
                 //{
                     //case 0:
-                gameObject.GetComponent<Image>().sprite = unitSpriteManager.blueSwardList[level];
-                slotScript.rawSprite = unitSpriteManager.blueSwardList[level];
+
+                // battle 시작시 화면 초기화 작업 시작.
+                // slot 창 꾸미기.
+                gameObject.GetComponent<Image>().sprite = unitSpriteManager.unitOnList[unit][level];
+                slotScript.rawSprite = unitSpriteManager.unitOnList[unit][level];
                 slotScript.cost = MyType.UnitCost[unit];
-                slotScript.limitStateSprite = unitSpriteManager.blueSwardOffList[level];
+                slotScript.limitStateSprite = unitSpriteManager.unitOffList[unit][level];
                 slotScript.coolTime = MyType.UnitCoolTime[unit];
                 gameObject.tag = MyType.StringFromUnitType[(MyType.UnitType)unit];
-                        //break;
-/*                    case 1:
-                        gameObject.GetComponent<Image>().sprite = unitSpriteManager.blueArcherList[level];
-                        slotScript.rawSprite = unitSpriteManager.blueArcherList[level];
-                        slotScript.cost = 5;
-                        slotScript.limitStateSprite = unitSpriteManager.blueArcherOffList[level];
-                        slotScript.coolTime = 6f;
-                        gameObject.tag = "Archer";
-                        break;
-                    case 2:
-                        gameObject.GetComponent<Image>().sprite = unitSpriteManager.blueArmouredSwardList[level];
-                        slotScript.rawSprite = unitSpriteManager.blueArmouredSwardList[level];
-                        slotScript.cost = 7;
-                        slotScript.limitStateSprite = unitSpriteManager.blueArmouredSwardOffList[level];
-                        slotScript.coolTime = 7f;
-                        gameObject.tag = "ArmouredSward";
-                        break;
-                    case 5:
-                        gameObject.GetComponent<Image>().sprite = unitSpriteManager.bluePatrolList[level];
-                        slotScript.rawSprite = unitSpriteManager.bluePatrolList[level];
-                        slotScript.cost = 11;
-                        slotScript.limitStateSprite = unitSpriteManager.bluePatrolOffList[level];
-                        slotScript.coolTime = 7f;
-                        gameObject.tag = "Patrol";
-                        break;*/
-                //}
-                break;
         }
         return gameObject.GetComponent<Image>().sprite;
     }

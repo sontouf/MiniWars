@@ -31,23 +31,10 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
     {
         if (pointerEventData.button == PointerEventData.InputButton.Left && !coolTimelimitState && !coolTiming && activeButton)
         {
+            // button 클래스화 시킴.
             tagName = gameObject.tag;
-            //Debug.Log("this is " + MyType.UnitTypeFromString[tagName]);
             buttonScript.Button(MyType.UnitTypeFromString[tagName]);
             cost = MyType.UnitCostFromString[tagName];
-                    //break;
-/*                case "Archer":
-                    gameManager.ArcherButton();
-                    cost = 5;
-                    break;
-                case "ArmouredSward":
-                    gameManager.ArmouredSwardButton();
-                    cost = 7;
-                    break;
-                case "Patrol":
-                    gameManager.PatrolButton();
-                    cost = 11;
-                    break;*/
             coolTimelimitState = !coolTimelimitState;
             coolTiming = !coolTiming;
         }
@@ -60,12 +47,12 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
             gameObject.GetComponent<Image>().sprite = limitStateSprite;
             activeButton = false;
         }
-        else if (cost <= gameManager.blueCost.cost && isUnit) // 돈있으면 활성화.
+        else if (!gameManager.stageEnd && cost <= gameManager.blueCost.cost && isUnit) // 돈있으면 활성화.
         {
             gameObject.GetComponent<Image>().sprite = rawSprite;
             activeButton = true;
         }
-        if (coolTimelimitState && coolTiming && isUnit) // 쿨타임중이면 버튼 클릭해도 버튼코드 실행안되게 하기.
+        if (!gameManager.stageEnd && coolTimelimitState && coolTiming && isUnit) // 쿨타임중이면 버튼 클릭해도 버튼코드 실행안되게 하기.
         {
             coolTimeImage.enabled = true;
             coolTimelimitState = !coolTimelimitState;

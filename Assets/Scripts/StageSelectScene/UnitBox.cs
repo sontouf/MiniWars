@@ -10,9 +10,9 @@ public class UnitBox : MonoBehaviour
     public GameObject openPage;
 
 
-    public GameObject page1;
-    public GameObject page2;
-    public GameObject page3;
+    public GameObject[] pages = new GameObject[3];
+    /*public GameObject page2;
+    public GameObject page3;*/
 
 
     public List<GameObject> pageUnits = new List<GameObject>(); // page내의 유닛 30개 gameObject;
@@ -34,48 +34,44 @@ public class UnitBox : MonoBehaviour
     {
         selectedUnitNumber = 0;
         SettingUnitBox();
-
-        openPage = page1;
-  
-        
+        openPage = pages[0];
     }
 
     private void Update()
     {
         selectedNumber = selectedUnitNumber;
-
     }
 
 
     // page 관련 함수들
     public void Left()
     {
-        if (openPage == page2)
+        if (openPage == pages[1])
         {
-            page1.SetActive(true);
-            page2.SetActive(false);
-            openPage = page1;
+            pages[0].SetActive(true);
+            pages[1].SetActive(false);
+            openPage = pages[0];
         }
-        else if (openPage == page3)
+        else if (openPage == pages[2])
         {
-            page2.SetActive(true);
-            page3.SetActive(false);
-            openPage = page2;
+            pages[1].SetActive(true);
+            pages[2].SetActive(false);
+            openPage = pages[1];
         }
     }
     public void Right()
     {
-        if (openPage == page1)
+        if (openPage == pages[0])
         {
-            page2.SetActive(true);
-            page1.SetActive(false);
-            openPage = page2;
+            pages[1].SetActive(true);
+            pages[0].SetActive(false);
+            openPage = pages[1];
         }
-        else if (openPage == page2)
+        else if (openPage == pages[1])
         {
-            page3.SetActive(true);
-            page2.SetActive(false);
-            openPage = page3;
+            pages[2].SetActive(true);
+            pages[1].SetActive(false);
+            openPage = pages[2];
         }
     }
     //--------------------------------------
@@ -117,28 +113,8 @@ public class UnitBox : MonoBehaviour
         unit = (unitId % 10000) / 100;
         //unitId %= 100;
         level = (unitId % 100);
-
-
-        switch (tribe)
-        {
-            case 1:
-                switch (unit)
-                {
-                    case 0:
-                        sprite = unitSpriteManager.blueSwardList[level];
-                        break;
-                    case 1:
-                        sprite = unitSpriteManager.blueArcherList[level];
-                        break;
-                    case 2:
-                        sprite = unitSpriteManager.blueArmouredSwardList[level];
-                        break;
-                    case 5:
-                        sprite = unitSpriteManager.bluePatrolList[level];
-                        break;
-                }
-                break;
-        }
+        if (tribe == 1) // sprite 초기화작업.
+            sprite = unitSpriteManager.unitOnList[unit][level];
 
         return sprite;
     }
