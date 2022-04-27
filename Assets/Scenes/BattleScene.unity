@@ -345,6 +345,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!114 &61921302
 MonoBehaviour:
@@ -1628,6 +1629,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!114 &368369460
 MonoBehaviour:
@@ -2703,6 +2705,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!114 &598475057
 MonoBehaviour:
@@ -5035,6 +5038,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491589499}
   m_CullTransparentMesh: 0
+--- !u!1 &1511226220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511226221}
+  - component: {fileID: 1511226222}
+  m_Layer: 0
+  m_Name: ButtonObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511226221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511226220}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 39.125443, y: 291.82108, z: -15.495369}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2081322174}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511226222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511226220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db337f42591cc0c4fb29193775c83056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 2081322173}
 --- !u!1 &1522609709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,6 +5505,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!1 &1636934991
 GameObject:
@@ -5519,6 +5567,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!114 &1636934994
 MonoBehaviour:
@@ -6570,12 +6619,15 @@ MonoBehaviour:
   blueSwardList: []
   blueArcherList: []
   blueArmouredSwardList: []
+  bluePatrolList: []
   blueSwardOffList: []
   blueArcherOffList: []
   blueArmouredSwardOffList: []
+  bluePatrolOffList: []
   redSwardList: []
   redArcherList: []
   redArmouredSwardList: []
+  redPatrolList: []
 --- !u!4 &1932936200
 Transform:
   m_ObjectHideFlags: 0
@@ -6725,6 +6777,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!114 &1955069240
 MonoBehaviour:
@@ -6841,6 +6894,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!114 &1983426297
 MonoBehaviour:
@@ -7186,6 +7240,7 @@ MonoBehaviour:
   activeButton: 0
   isUnit: 0
   coolTime: 0
+  buttonScript: {fileID: 1511226222}
   rawSprite: {fileID: 0}
 --- !u!114 &2052682245
 MonoBehaviour:
@@ -7334,7 +7389,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.4, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1511226221}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

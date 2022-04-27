@@ -334,17 +334,17 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
         switch (tribe)
         {
             case 1:
-                switch (unit)
-                {
-                    case 0:
-                        gameObject.GetComponent<Image>().sprite = unitSpriteManager.blueSwardList[level];
-                        slotScript.rawSprite = unitSpriteManager.blueSwardList[level];
-                        slotScript.cost = 3;
-                        slotScript.limitStateSprite = unitSpriteManager.blueSwardOffList[level];
-                        slotScript.coolTime = 5f;
-                        gameObject.tag = "Sward";
-                        break;
-                    case 1:
+                //switch (unit)
+                //{
+                    //case 0:
+                gameObject.GetComponent<Image>().sprite = unitSpriteManager.blueSwardList[level];
+                slotScript.rawSprite = unitSpriteManager.blueSwardList[level];
+                slotScript.cost = MyType.UnitCost[unit];
+                slotScript.limitStateSprite = unitSpriteManager.blueSwardOffList[level];
+                slotScript.coolTime = MyType.UnitCoolTime[unit];
+                gameObject.tag = MyType.StringFromUnitType[(MyType.UnitType)unit];
+                        //break;
+/*                    case 1:
                         gameObject.GetComponent<Image>().sprite = unitSpriteManager.blueArcherList[level];
                         slotScript.rawSprite = unitSpriteManager.blueArcherList[level];
                         slotScript.cost = 5;
@@ -367,8 +367,8 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
                         slotScript.limitStateSprite = unitSpriteManager.bluePatrolOffList[level];
                         slotScript.coolTime = 7f;
                         gameObject.tag = "Patrol";
-                        break;
-                }
+                        break;*/
+                //}
                 break;
         }
         return gameObject.GetComponent<Image>().sprite;

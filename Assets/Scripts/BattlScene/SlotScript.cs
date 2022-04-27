@@ -20,19 +20,23 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
     public bool isUnit;
     public float coolTime;
 
+    public ButtonScript buttonScript;
+
 
     public Sprite rawSprite;
+
+
+
     public void OnPointerClick(PointerEventData pointerEventData) // 쿨타임아니면 가능.
     {
         if (pointerEventData.button == PointerEventData.InputButton.Left && !coolTimelimitState && !coolTiming && activeButton)
         {
             tagName = gameObject.tag;
-            switch (tagName)
-            {
-                case "Sward":
-                    gameManager.SwardButton();
-                    break;
-                case "Archer":
+            //Debug.Log("this is " + MyType.UnitTypeFromString[tagName]);
+            buttonScript.Button(MyType.UnitTypeFromString[tagName]);
+            cost = MyType.UnitCostFromString[tagName];
+                    //break;
+/*                case "Archer":
                     gameManager.ArcherButton();
                     cost = 5;
                     break;
@@ -43,8 +47,7 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
                 case "Patrol":
                     gameManager.PatrolButton();
                     cost = 11;
-                    break;
-            }
+                    break;*/
             coolTimelimitState = !coolTimelimitState;
             coolTiming = !coolTiming;
         }

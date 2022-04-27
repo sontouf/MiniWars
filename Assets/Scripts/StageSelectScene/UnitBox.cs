@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UnitBox : MonoBehaviour
 {
-    public PlayerData playerData;
+    //public PlayerData playerData;
     public UnitSpriteManager unitSpriteManager;
 
     public GameObject openPage;
@@ -83,7 +83,7 @@ public class UnitBox : MonoBehaviour
 
     public void SettingUnitBox() // pageUnits 랑 selectedUnits은 에디터상에서 원소를 추가해주었다. 30개 8개 이미 있다고 생각하기.
     {
-        int count = PlayerData.unitObjectList.Length; // 플레이어가 갖고 있는 유닛수를 가져온다.
+        int count = PlayerData.unitObjectList.Count; // 플레이어가 갖고 있는 유닛수를 가져온다.
         for (int i = 0; i <  PlayerData.unlockUnitNumber; i++) // battle 에 갖고 갈수있는 유닛의 수만큼 empty해준다.
         {
             selectedUnits[i].GetComponent<Image>().sprite = empty;
