@@ -21,28 +21,28 @@ public class SceneManagerScript : MonoBehaviour
 
 
     // ============================ [ call-back method ] ============================
-    public void MainScene()
+    static public void MainScene()
     {
         SceneManager.LoadScene(0);
 
     }
 
-    public void ExitGame()
+    static public void ExitGame()
     {
         Application.Quit();
     }
 
-    public void StageSelectScene()
+    static public void StageSelectScene()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void PlayerScene()
+    static public void PlayerScene()
     {
         SceneManager.LoadScene(3);
     }
 
-    public void BattleScene()
+    static public void BattleScene()
     {
         if (UnitBox.selectedUnitNumber > 0)
         {

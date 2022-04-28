@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Linq;
 
 public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle manager 가 더 맞는 느낌.
 {
-    public UnitSpriteManager unitSpriteManager; // unit slot sprite 배치를 위해 sprite manager를 받아온다.
+    //public UnitSpriteManager unitSpriteManager; // unit slot sprite 배치를 위해 sprite manager를 받아온다.
     public int bluePath;
     int redPath;
 
@@ -21,20 +22,6 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
 
     public int blueCastleLevel;
     public int redCastleLevel;
-
-    // --------------------------------------------------------
-    // Prefab 정보.
-/*    public GameObject swardPrefab;
-    public GameObject archerPrefab;
-    public GameObject armouredSwardPrefab;
-    public GameObject cavalryPrefab;
-    public GameObject patrolPrefab;
-    public GameObject royalGuardPrefab;
-    public GameObject shieldPrefab;
-    public GameObject spearManPrefab;
-    public GameObject artilleryManPrefab;*/
-
-    // --------------------------------------------------------
 
     public GameObject bluePosition;
 
@@ -51,8 +38,8 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
 
     public BlueCost blueCost;
     public RedCost redCost;
-    public int BCost;
-    public int RCost;
+   /* public int BCost;
+    public int RCost;*/
 
     public Text unitCountCost;
 
@@ -95,15 +82,11 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
     // Update is called once per frame
     void Update()
     {
-
+/*
         BCost = blueCost.cost;
-        RCost = redCost.cost;
-
+        RCost = redCost.cost;*/
         if (stageEnd)
-        {
             Result(win);
-        }
-
     }
 
     // choice Path
@@ -201,7 +184,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
         return child;
     }
 
-    public float BluePathY(int bluePath)
+    float BluePathY(int bluePath)
     {
         float bluePathY = 0;
         if (bluePath == 2)
@@ -221,7 +204,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
     }
 
 
-    public Sprite SlotSetting(GameObject gameObject, int idx) 
+   Sprite SlotSetting(GameObject gameObject, int idx) 
     {
         // Battle 시작시 왼쪽에 나열된 유닛창에 대한 정보. 한 슬롯에 대해 적용된다.
         // 어떠한 한 슬롯이 인자로 들어오고 그 슬롯의 위치인 idx가 인자로 들어와서 UnitBox에서 정보를 받아와 순서대로 sprite가 적용이 된다.
@@ -235,18 +218,14 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
         SlotScript slotScript = gameObject.GetComponent<SlotScript>();
         if (tribe == 1)
         {
-                //switch (unit)
-                //{
-                    //case 0:
-
                 // battle 시작시 화면 초기화 작업 시작.
                 // slot 창 꾸미기.
-                gameObject.GetComponent<Image>().sprite = unitSpriteManager.unitOnList[unit][level];
-                slotScript.rawSprite = unitSpriteManager.unitOnList[unit][level];
+                gameObject.GetComponent<Image>().sprite = UnitSpriteManager.unitOnList[unit][level];
+                slotScript.rawSprite = UnitSpriteManager.unitOnList[unit][level];
                 slotScript.cost = MyType.UnitCost[unit];
-                slotScript.limitStateSprite = unitSpriteManager.unitOffList[unit][level];
+                slotScript.limitStateSprite = UnitSpriteManager.unitOffList[unit][level];
                 slotScript.coolTime = MyType.UnitCoolTime[unit];
-                gameObject.tag = MyType.StringFromUnitType[(MyType.UnitType)unit];
+                gameObject.tag = MyType.UnitTypeFromString.FirstOrDefault(x=>x.Value == (MyType.UnitType)unit).Key;
         }
         return gameObject.GetComponent<Image>().sprite;
     }
