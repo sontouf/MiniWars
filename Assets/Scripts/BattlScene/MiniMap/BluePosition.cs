@@ -16,7 +16,7 @@ public class BluePosition : MonoBehaviour
         master = GameObject.Find("Master");
         canvasObject = GameObject.Find("SettingCanvas");
         scaleX = canvasObject.GetComponent<RectTransform>().localScale.x;
-        bluePath = ResultY(master.GetComponent<GameManager>().bluePath);
+        //bluePath = ResultY(master.GetComponent<GameManager>().bluePath);
         //GetComponent<RectTransform>().position = new Vector3(40, 17, 0) * canvasObject.GetComponent<RectTransform>().localScale.x;
     }
 

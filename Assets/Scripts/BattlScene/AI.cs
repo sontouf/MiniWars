@@ -6,7 +6,7 @@ public class AI : MonoBehaviour
 {
     public RedCost redCost;
     int pattern;
-    float second = RedCost.waitforsecond;
+    float second;
     public GameObject swardPrefab;
     public GameObject archerPrefab;
     public GameObject armouredSwardPrefab;
@@ -16,6 +16,8 @@ public class AI : MonoBehaviour
     public GameObject shieldPrefab;
     public GameObject spearManPrefab;
     public GameObject artilleryMan;
+
+    public RedCastleInfo redCastleInfo;
 
     public int redPath;
 
@@ -35,6 +37,7 @@ public class AI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        second = redCost.waitForSecond;
         pattern = 0;
         SetPattern();
     }
@@ -47,7 +50,7 @@ public class AI : MonoBehaviour
         bool patternEnd = false;
         while (!patternEnd && !gameManager.stageEnd)
         {
-            if (redCost.cost >= 8 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+            if (redCost.cost >= 8 && GameManager.redCurUnitNumber < redCastleInfo.maxPopulation)
             { // 일단 8만큼 채움.
                 redPath = Random.Range(-1, 2);
                 int rand = Random.Range(0, 2);
@@ -67,7 +70,7 @@ public class AI : MonoBehaviour
                         target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
                         break;
                 }
-                if (GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+                if (GameManager.redCurUnitNumber < redCastleInfo.maxPopulation)
                 {
                     redPath = Random.Range(-1, 2);
                     rand = Random.Range(0, 3);
@@ -106,7 +109,7 @@ public class AI : MonoBehaviour
         bool patternEnd = false;
         while (!patternEnd && !gameManager.stageEnd)
         {
-            if (redCost.cost >= 6 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+            if (redCost.cost >= 6 && GameManager.redCurUnitNumber < redCastleInfo.maxPopulation)
             {
                 GameObject target;
                 for (int i = 0; i < 2; i++)
@@ -131,7 +134,7 @@ public class AI : MonoBehaviour
         GameObject target;
         while (!patternEnd && !gameManager.stageEnd)
         {
-            if (redCost.cost >= 7 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+            if (redCost.cost >= 7 && GameManager.redCurUnitNumber < redCastleInfo.maxPopulation)
             {
                 redPath = Random.Range(-1, 2);
                 target = Instantiate(armouredSwardPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
@@ -139,7 +142,7 @@ public class AI : MonoBehaviour
                 GameManager.redCurUnitNumber += 1;
                 target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
             }
-            else if (redCost.cost >= 3 && GameManager.redCurUnitNumber < gameManager.redMaxUnitNumber)
+            else if (redCost.cost >= 3 && GameManager.redCurUnitNumber < redCastleInfo.maxPopulation)
             {
                 redPath = Random.Range(-1, 2);
                 target = Instantiate(swardPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
@@ -159,7 +162,7 @@ public class AI : MonoBehaviour
         bool patternEnd = false;
         while (!patternEnd && !gameManager.stageEnd)
         {
-            if (redCost.cost >= gameManager.redUnitLevel * 10)
+            if (redCost.cost >= redCastleInfo.populationLevel * 10)
             {
                 UpUnit();
                 patternEnd = true;
@@ -193,7 +196,7 @@ public class AI : MonoBehaviour
         bool patternEnd = false;
         while (!patternEnd && !gameManager.stageEnd)
         {
-            if (redCost.cost >= gameManager.redCost.CostPlus(gameManager.redCastleLevel) * 0.8f)
+            if (redCost.cost >= gameManager.redCost.CostPlus(redCastleInfo.castleLevel) * 0.8f)
             {
                 patternEnd = true;
             }
@@ -207,14 +210,14 @@ public class AI : MonoBehaviour
     //=========================================Up=========================
     public void UpCastle()
     {
-        gameManager.redCastleLevel++;
+        redCastleInfo.castleLevel++;
         redCost.cost = 0;
     }
     public void UpUnit()
     {
-        redCost.cost -= gameManager.redUnitLevel * 10;
-        gameManager.redUnitLevel++;
-        gameManager.redMaxUnitNumber = gameManager.redUnitLevel * 10;
+        redCost.cost -= redCastleInfo.populationLevel * 10;
+        redCastleInfo.populationLevel++;
+        redCastleInfo.maxPopulation = redCastleInfo.populationLevel * 10;
     }
 
 
@@ -254,27 +257,27 @@ public class AI : MonoBehaviour
     public void SetPattern()
     {
         //--------------------------------------- 인구수에 따른 판단.
-        if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.7f && redCost.maxCost >= gameManager.redUnitLevel * 10)
+        if (GameManager.redCurUnitNumber >= redCastleInfo.maxPopulation * 0.7f && redCost.maxCost >= redCastleInfo.populationLevel * 10)
         {
             pattern = 2; // 인구가 많으니 인구수 업을 해야겠다.
-            if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.85f)
+            if (GameManager.redCurUnitNumber >= redCastleInfo.maxPopulation * 0.85f)
                 pattern = 2; // 아 인구너무 많아 인구 업!
             else if (redCost.cost >= redCost.maxCost * 0.8f)
                 pattern = 3; // 근데 돈도 많네? 성 업글하고 인구수 해결하자.
             else if (redCost.cost >= redCost.maxCost * 0.3f)// 인구가 좀 많긴한데 돈 모아도 되겠다.
                 pattern = 4;
         }
-        else if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.3f && redCost.maxCost >= gameManager.redUnitLevel * 10)
+        else if (GameManager.redCurUnitNumber >= redCastleInfo.maxPopulation * 0.3f && redCost.maxCost >= redCastleInfo.populationLevel * 10)
         {
             pattern = Random.Range(0, 2); // 아 일단 병사들 뽑아야함.
-            if (gameManager.redCastleLevel > 1) // 혹시나 성업글 2이상이면 갑옷병 슬슬 뽑아보자.
+            if (redCastleInfo.castleLevel > 1) // 혹시나 성업글 2이상이면 갑옷병 슬슬 뽑아보자.
                 pattern = 5;
         }
         else // 인구수가 없거나 인구수가 많아도 성레벨이 딸려서 어차피 인구수 레벨업 못할경우. 
         {
             if (redCost.cost <= redCost.maxCost * 0.3f) // 인구 없는데 돈도 없다.
                 pattern = 4; // 돈 모으자.
-            else if (GameManager.redCurUnitNumber >= gameManager.redMaxUnitNumber * 0.8f) // 인구가 많아서 인구수 레벨업해야하는데 성레벨 딸리는 경우
+            else if (GameManager.redCurUnitNumber >= redCastleInfo.maxPopulation * 0.8f) // 인구가 많아서 인구수 레벨업해야하는데 성레벨 딸리는 경우
                 pattern = 3;
             else  //인구 없는데 돈은 있다.
                 pattern = Random.Range(0, 2); // 돈은 좀 있으니 병사 뽑자.

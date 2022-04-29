@@ -17,7 +17,7 @@ public class UnitCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        unitCountText.text = "" + GameManager.blueCurUnitNumber + "/" + gameManager.blueMaxUnitNumber;
-        unitCountShadowText.text = "" + GameManager.blueCurUnitNumber + "/" + gameManager.blueMaxUnitNumber;
+/*        unitCountText.text = "" + GameManager.blueCurUnitNumber + "/" + gameManager.blueMaxUnitNumber;
+        unitCountShadowText.text = "" + GameManager.blueCurUnitNumber + "/" + gameManager.blueMaxUnitNumber;*/
     }
 }

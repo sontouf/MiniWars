@@ -22,26 +22,23 @@ public class UnitInfo : MonoBehaviour
     public HpBarController hpBarController;
     private GameObject parentObject;
 
+    public CastleInfo castleInfo;
+
     protected virtual void Start()
     {
-        if(gameObject.layer == 9)
-        {
-            speed = -1;
-        }
-        else if (gameObject.layer == 8)
-        {
-            speed = 1;
-        }
-
         animator = GetComponent<Animator>();
         parentObject = GameObject.Find("Canvas");
         if (gameObject.layer == 8)
         {
+            speed = 1;
             hp = Resources.Load<Slider>("Prefabs/BlueSlider");
+            castleInfo = GameObject.Find("BlueCastle").GetComponent<BlueCastleInfo>();
         }
         else
         {
+            speed = -1;
             hp = Resources.Load<Slider>("Prefabs/RedSlider");
+            castleInfo = GameObject.Find("RedCastle").GetComponent<RedCastleInfo>();
         }
         child = Instantiate(hp);
         child.transform.SetParent(parentObject.transform);
@@ -57,6 +54,7 @@ public class UnitInfo : MonoBehaviour
         if (curHp <= 0 && !isDead)
         {
             animator.SetTrigger("Die");
+            //castleInfo.curUnitNumber -= 1;
             isDead = !isDead;
         }
         if (child)

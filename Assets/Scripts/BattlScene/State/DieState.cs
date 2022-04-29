@@ -16,14 +16,6 @@ public class DieState : StateMachineBehaviour
         }
         animator.GetComponent<BoxCollider2D>().enabled = false;
         animator.GetComponent<SpriteRenderer>().sortingOrder = 0;
-        if (animator.gameObject.layer == 8)
-        {
-            GameManager.blueCurUnitNumber -= 1;
-        }
-        else if (animator.gameObject.layer == 9)
-        {
-            GameManager.redCurUnitNumber -= 1;
-        }
 
     }
 

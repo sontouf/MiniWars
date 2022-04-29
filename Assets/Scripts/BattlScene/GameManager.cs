@@ -8,22 +8,22 @@ using System.Linq;
 public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle manager 가 더 맞는 느낌.
 {
     //public UnitSpriteManager unitSpriteManager; // unit slot sprite 배치를 위해 sprite manager를 받아온다.
-    public int bluePath;
+    //public int bluePath;
     int redPath;
 
     //----------- battle 중 upgrade에 필요한 변수들.
-    public int blueUnitLevel;
+ /*   static public int blueUnitLevel;
     static public int blueCurUnitNumber;
-    public int blueMaxUnitNumber;
+    static public int blueMaxUnitNumber;*/
 
-    public int redUnitLevel;
+    static public int redUnitLevel;
     static public int redCurUnitNumber;
-    public int redMaxUnitNumber;
+    static public int redMaxUnitNumber;
 
-    public int blueCastleLevel;
-    public int redCastleLevel;
+    //static public int blueCastleLevel;
+    static public int redCastleLevel;
 
-    public GameObject bluePosition;
+    //public GameObject bluePosition;
 
     public GameObject canvasObject;
     public GameObject child; // bluePosition
@@ -53,18 +53,18 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
     // Start is called before the first frame update
     void Start()
     {
-        bluePath = 0;
+       /* bluePath = 0;
         redPath = 0;
         blueCurUnitNumber = 0;
         blueMaxUnitNumber = 10;
         blueCastleLevel = 1;
-        blueUnitLevel = 1;
+        blueUnitLevel = 1;*/
         redCastleLevel = 1;
         redUnitLevel = 1;
         redCurUnitNumber = 0;
         redMaxUnitNumber = 10;
-        unitCountCost.text = "" + blueUnitLevel * 10;
-        blueMaxUnitNumber = blueUnitLevel * 10;
+/*        unitCountCost.text = "" + blueUnitLevel * 10;
+        blueMaxUnitNumber = blueUnitLevel * 10;*/
 
         // 왼쪽 유닛 선택창의 sprite 배치 코드
         for (int i = 0; i < UnitBox.selectedUnitNumber; i++) // 이전 페이지에서 선택된 유닛 순서대로 battle씬에서 배치하고자 한다.
@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
             Result(win);
     }
 
-    // choice Path
+/*    // choice Path
     public void topPath()
     {
         bluePath = 2;
@@ -102,9 +102,9 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
     {
         bluePath = -2;
     }
+*/
 
-
-    // Upgrade Castle && UnitCount
+/*    // Upgrade Castle && UnitCount
     public void Castle()
     {
         if (!stageEnd && blueCost.cost == blueCost.maxCost)
@@ -124,7 +124,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
         }
 
     }
-
+*/
 
     // --------------------------------------------------------------------------------
     // Result function
@@ -171,7 +171,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
 
 
 
-    public GameObject CreateUnitPosition(GameObject target)
+/*    static public GameObject CreateUnitPosition(GameObject target)
     {
         // MiniMap의 유닛 위치를 생성해주는 함수이다.인자로 위치표시가 필요한 target이 들어온다.
         child = Instantiate(bluePosition);
@@ -182,8 +182,8 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
         // Debug.Log("a : " + child.GetComponent<RectTransform>().position);
         child.GetComponent<BluePosition>().target = target;
         return child;
-    }
-
+    }*/
+/*
     float BluePathY(int bluePath)
     {
         float bluePathY = 0;
@@ -202,7 +202,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
         }
         return bluePathY;
     }
-
+*/
 
    Sprite SlotSetting(GameObject gameObject, int idx) 
     {

@@ -26,15 +26,20 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
     public Sprite rawSprite;
 
 
-
-    public void OnPointerClick(PointerEventData pointerEventData) // 쿨타임아니면 가능.
+    public void Start()
+    {
+        tagName = gameObject.tag;
+        if (tagName != "Untagged")
+            cost = MyType.UnitCostFromString[tagName];
+    }
+    public void OnPointerClick(PointerEventData pointerEventData) // 쿨타임아니면 가능. 버튼을 눌렀을시 발생하는 이벤트코드
     {
         if (pointerEventData.button == PointerEventData.InputButton.Left && !coolTimelimitState && !coolTiming && activeButton)
         {
             // button 클래스화 시킴.
-            tagName = gameObject.tag;
+            //tagName = gameObject.tag;
             buttonScript.Button(MyType.UnitTypeFromString[tagName]);
-            cost = MyType.UnitCostFromString[tagName];
+            //cost = MyType.UnitCostFromString[tagName];
             coolTimelimitState = !coolTimelimitState;
             coolTiming = !coolTiming;
         }
