@@ -9,6 +9,12 @@ TagManager:
   - Sward
   - Archer
   - ArmouredSward
+  - ArtilleryMan
+  - Cavalry
+  - Patrol
+  - RoyalGuard
+  - Shield
+  - SpearMan
   layers:
   - Default
   - TransparentFX
