@@ -10,7 +10,7 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
     // 또한 unit slot마다 slotscript를 가지고 있다. 각 슬롯마다 사용된 순간과 쿨타임과 조건이 다 다를수있기 때문이다.
     public Image coolTimeImage;
 
-    string tagName;
+    public string tagName;
     public GameManager gameManager;
     public int cost; // 이 슬롯에 해당하는 유닛의 cost 값.
     public Sprite limitStateSprite;

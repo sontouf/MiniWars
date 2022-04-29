@@ -337,6 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 490719594}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -915,6 +916,7 @@ GameObject:
   - component: {fileID: 220026238}
   - component: {fileID: 220026240}
   - component: {fileID: 220026241}
+  - component: {fileID: 220026242}
   m_Layer: 9
   m_Name: RedCastle
   m_TagString: Red
@@ -1003,6 +1005,10 @@ MonoBehaviour:
   plusCost: 0
   maxCost: 0
   gameManager: {fileID: 2081322173}
+  castleInfo: {fileID: 220026242}
+  costText: {fileID: 1522609711}
+  populationText: {fileID: 0}
+  waitForSecond: 0
 --- !u!61 &220026241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1029,6 +1035,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9269772, y: 9.7579775}
   m_EdgeRadius: 0
+--- !u!114 &220026242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220026237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d908f08590544c144b43866f3bf41db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 2081322173}
+  path: 0
+  populationLevel: 1
+  cost: {fileID: 220026240}
+  castleLevel: 1
+  curPopulation: 0
+  maxPopulation: 10
 --- !u!1 &257588408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,6 +1400,7 @@ GameObject:
   - component: {fileID: 327311749}
   - component: {fileID: 327311748}
   - component: {fileID: 327311751}
+  - component: {fileID: 327311752}
   m_Layer: 8
   m_Name: BlueCastle
   m_TagString: Blue
@@ -1398,7 +1424,10 @@ MonoBehaviour:
   plusCost: 0
   maxCost: 0
   gameManager: {fileID: 2081322173}
+  castleInfo: {fileID: 327311752}
   costText: {fileID: 1991646263}
+  populationText: {fileID: 458163689}
+  populationText: {fileID: 458163689}
 --- !u!212 &327311749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1490,6 +1519,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9265957, y: 9.748644}
   m_EdgeRadius: 0
+--- !u!114 &327311752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327311747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2df9580ad92ba124ba5004ea601ed907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 2081322173}
+  path: 0
+  populationLevel: 1
+  cost: {fileID: 327311748}
+  castleLevel: 1
+  curPopulation: 0
+  maxPopulation: 10
 --- !u!1 &343627802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,6 +1669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 2034777759}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -2697,6 +2746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 1586950285}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -3912,9 +3962,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2081322173}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: Castle
+        - m_Target: {fileID: 327311752}
+          m_TargetAssemblyTypeName: CastleInfo, Assembly-CSharp
+          m_MethodName: UpgradeCastleLevel
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -4988,9 +5038,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2081322173}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: UnitCount
+        - m_Target: {fileID: 327311752}
+          m_TargetAssemblyTypeName: CastleInfo, Assembly-CSharp
+          m_MethodName: UpgradePopulationLevel
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5082,6 +5132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 2081322173}
+  blueCastleInfo: {fileID: 327311752}
 --- !u!1 &1522609709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5497,6 +5548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 1550185092}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -5559,6 +5611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 434495324}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -6614,20 +6667,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89cce18e6873a88469f8e806489161c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerAndEnemyUnitSpritesOn: []
-  playerUnitSpritesOff: []
-  blueSwardList: []
-  blueArcherList: []
-  blueArmouredSwardList: []
-  bluePatrolList: []
-  blueSwardOffList: []
-  blueArcherOffList: []
-  blueArmouredSwardOffList: []
-  bluePatrolOffList: []
-  redSwardList: []
-  redArcherList: []
-  redArmouredSwardList: []
-  redPatrolList: []
 --- !u!4 &1932936200
 Transform:
   m_ObjectHideFlags: 0
@@ -6769,6 +6808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 1681968067}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -6886,6 +6926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 687455384}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -7232,6 +7273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coolTimeImage: {fileID: 1896867205}
+  tagName: 
   gameManager: {fileID: 2081322173}
   cost: 0
   limitStateSprite: {fileID: 0}
@@ -7327,34 +7369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e73cf4fe9282c3418b3009acde5bff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitSpriteManager: {fileID: 1932936199}
-  bluePath: 0
-  blueUnitLevel: 0
-  blueMaxUnitNumber: 0
-  redUnitLevel: 0
-  redMaxUnitNumber: 0
-  blueCastleLevel: 0
-  redCastleLevel: 0
-  swardPrefab: {fileID: 4332750854071494870, guid: 640bc68254b55b0449131b2c0dbeece0,
-    type: 3}
-  archerPrefab: {fileID: 4523143230319665903, guid: f6ee94a131a907945af1bc9e528a0fb2,
-    type: 3}
-  armouredSwardPrefab: {fileID: 2326102747368332697, guid: 878ec3d41454fe1498f9fd12adac0ff7,
-    type: 3}
-  cavalryPrefab: {fileID: 4499656414596292970, guid: eac41b15d9c35f04ca19b26c27694575,
-    type: 3}
-  patrolPrefab: {fileID: 4614950847388813661, guid: 08ec2bcf919f64b4bb5d7607b60dbe2d,
-    type: 3}
-  royalGuardPrefab: {fileID: 6236719865276586902, guid: 0cf6fbedc93e3834aa485e647ec0bfa4,
-    type: 3}
-  shieldPrefab: {fileID: 926481864858398451, guid: 072c94ced2584b04282088bb3e10cf52,
-    type: 3}
-  spearManPrefab: {fileID: 5814782168503190948, guid: 238ca499a1246084eb26143c4d39b2e0,
-    type: 3}
-  artilleryManPrefab: {fileID: 7714444871623721446, guid: 6314dbe5d188cf54cb327c3c0d579071,
-    type: 3}
-  bluePosition: {fileID: 5026793729407778847, guid: 09520944bf546e944b1da8921b20f635,
-    type: 3}
   canvasObject: {fileID: 1155500474}
   child: {fileID: 0}
   hpCanvas: {fileID: 537905215}
@@ -7366,9 +7380,6 @@ MonoBehaviour:
   stageEnd: 0
   blueCost: {fileID: 327311748}
   redCost: {fileID: 220026240}
-  BCost: 0
-  RCost: 0
-  unitCountCost: {fileID: 458163689}
   empty: {fileID: 21300000, guid: 3b1371f2f89672b4fbdd768cd4f57319, type: 3}
   unitSlot:
   - {fileID: 1627273823}
@@ -7425,6 +7436,7 @@ MonoBehaviour:
     type: 3}
   artilleryMan: {fileID: 6062842830419684157, guid: 44e414acb25caf64fbfaec3ba751eeb9,
     type: 3}
+  redCastleInfo: {fileID: 220026242}
   redPath: 0
   gameManager: {fileID: 2081322173}
   redPosition: {fileID: 5840356270949333304, guid: efad9559da6fa0849a60816909d8cd65,

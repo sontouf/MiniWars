@@ -10,12 +10,16 @@ public class Cost : MonoBehaviour
     public GameManager gameManager;
     public CastleInfo castleInfo;
     public Text costText;
+    //public Text populationText;
+
     protected virtual void Start()
     {
         maxCost = 10;
         cost = 0;
         castleInfo = GetComponent<CastleInfo>();
         StartCoroutine("AddCost");
+        costText.text = "" + maxCost;
+        castleInfo.maxPopulation = castleInfo.populationLevel * 10;
     }
 
     protected virtual IEnumerator AddCost()
