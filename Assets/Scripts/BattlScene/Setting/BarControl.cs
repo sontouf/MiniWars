@@ -31,12 +31,12 @@ public class BarControl : MonoBehaviour
     void Update()
     {
 
-        ratio = (float)blueCost.cost / (float)blueCost.maxCost;
+        ratio = (float)blueCost.curCost / (float)blueCost.maxCost;
         width = ratio * need.x;
         rectTransform.sizeDelta = new Vector2(width, height);
-        costText.text = "" + blueCost.cost + "/" + blueCost.maxCost;
-        redCostText.text = "" + redCost.cost + "/" + redCost.maxCost;
-        costShadowText.text = "" + blueCost.cost + "/" + blueCost.maxCost;
+        costText.text = "" + blueCost.curCost + "/" + blueCost.maxCost;
+        redCostText.text = "" + redCost.curCost + "/" + redCost.maxCost;
+        costShadowText.text = "" + blueCost.curCost + "/" + blueCost.maxCost;
 
     }
 }

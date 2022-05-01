@@ -13,7 +13,7 @@ public class CastleInfo : MonoBehaviour
     public int curPopulation = 0;
     public int maxPopulation = 10;
 
-    private void Start()
+    protected virtual void Start()
     {
         gameManager = GameObject.Find("Master").GetComponent<GameManager>();
         if (gameObject.layer == 8)
@@ -24,18 +24,18 @@ public class CastleInfo : MonoBehaviour
 
     public void UpgradeCastleLevel()
     {
-        if (!gameManager.stageEnd && cost.cost == cost.maxCost)
+        if (!gameManager.stageEnd && cost.curCost == cost.maxCost)
         {
-            cost.cost -= cost.maxCost;
+            cost.curCost -= cost.maxCost;
             castleLevel += 1;
         }
     }
 
-    public void UpgradePopulationLevel()
+    protected virtual void UpgradePopulationLevel()
     {
-        if (!gameManager.stageEnd && cost.cost >= populationLevel * 10)
+        if (!gameManager.stageEnd && cost.curCost >= populationLevel * 10)
         {
-            cost.cost -= populationLevel * 10;
+            cost.curCost -= populationLevel * 10;
             populationLevel += 1;
             if (gameObject.layer == 8)
             //cost.populationText.text = "" + populationLevel * 10;

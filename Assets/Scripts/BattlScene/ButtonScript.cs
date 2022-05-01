@@ -18,12 +18,12 @@ public class ButtonScript : MonoBehaviour
 
     public void Button(MyType.UnitType unitType)
     {
-        if (!gameManager.stageEnd && blueCastleInfo.curPopulation < blueCastleInfo.maxPopulation && blueCastleInfo.cost.cost >= MyType.UnitCost[(int)unitType])
+        if (!gameManager.stageEnd && blueCastleInfo.curPopulation < blueCastleInfo.maxPopulation && blueCastleInfo.cost.curCost >= MyType.UnitCost[(int)unitType])
         {
             //Debug.Log("int ?? " + (int)unitType);
             GameObject target = Instantiate(Resources.Load(unitPrefabPath[(int)unitType]) as GameObject, new Vector3(-18, blueCastleInfo.path, 0), Quaternion.identity);
             blueCastleInfo.curPopulation += 1;
-            blueCastleInfo.cost.cost -= MyType.UnitCost[(int)unitType];
+            blueCastleInfo.cost.curCost -= MyType.UnitCost[(int)unitType];
             //target.GetComponent<UnitInfo>().positionObject = GameManager.CreateUnitPosition(target);
         }
     }

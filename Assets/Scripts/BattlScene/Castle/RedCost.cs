@@ -8,6 +8,7 @@ public class RedCost : Cost
 
     protected override void Start()
     {
+        requiredCostText = null;
         base.Start();
         waitForSecond = 1f;
     }
@@ -16,18 +17,18 @@ public class RedCost : Cost
     {
         while (!gameManager.stageEnd)
         {
-            if (cost < maxCost)
+            if (curCost < maxCost)
             {
                 int currentCost;
-                currentCost = cost + CostPlus(castleInfo.castleLevel);
+                currentCost = curCost + CostPlus(castleInfo.castleLevel);
 
                 if (currentCost >= maxCost)
                 {
-                    cost = maxCost;
+                    curCost = maxCost;
                 }
                 else
                 {
-                    cost = currentCost;
+                    curCost = currentCost;
                 }
 
             }

@@ -4,21 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Cost : MonoBehaviour
 {
-    public int cost;
+    public int curCost;
     public int plusCost;
     public int maxCost;
     public GameManager gameManager;
     public CastleInfo castleInfo;
-    public Text costText;
+    public Text requiredCostText;
     //public Text populationText;
 
     protected virtual void Start()
     {
         maxCost = 10;
-        cost = 0;
+        curCost = 0;
         castleInfo = GetComponent<CastleInfo>();
         StartCoroutine("AddCost");
-        costText.text = "" + maxCost;
+        if (requiredCostText)
+            requiredCostText.text = "" + maxCost;
         castleInfo.maxPopulation = castleInfo.populationLevel * 10;
     }
 
@@ -27,18 +28,18 @@ public class Cost : MonoBehaviour
 
         while (!gameManager.stageEnd)
         {
-            if (cost < maxCost)
+            if (curCost < maxCost)
             {
                 int currentCost;
-                currentCost = cost + CostPlus(castleInfo.castleLevel);
+                currentCost = curCost + CostPlus(castleInfo.castleLevel);
 
                 if (currentCost >= maxCost)
                 {
-                    cost = maxCost;
+                    curCost = maxCost;
                 }
                 else
                 {
-                    cost = currentCost;
+                    curCost = currentCost;
                 }
 
             }
@@ -54,50 +55,43 @@ public class Cost : MonoBehaviour
             case 1:
                 plusCost = 1;
                 maxCost = 10;
-                costText.text = "" + maxCost;
                 break;
             case 2:
                 plusCost = 2;
                 maxCost = 20;
-                costText.text = "" + maxCost;
                 break;
             case 3:
                 plusCost = 4;
                 maxCost = 40;
-                costText.text = "" + maxCost;
                 break;
             case 4:
                 plusCost = 6;
                 maxCost = 60;
-                costText.text = "" + maxCost;
                 break;
             case 5:
                 plusCost = 10;
                 maxCost = 100;
-                costText.text = "" + maxCost;
                 break;
             case 6:
                 plusCost = 14;
                 maxCost = 160;
-                costText.text = "" + maxCost;
                 break;
             case 7:
                 plusCost = 18;
                 maxCost = 260;
-                costText.text = "" + maxCost;
                 break;
             case 8:
                 plusCost = 24;
                 maxCost = 410;
-                costText.text = "" + maxCost;
                 break;
             case 9:
                 plusCost = 30;
                 maxCost = 680;
-                costText.text = "" + maxCost;
                 break;
 
         }
+        if (requiredCostText)
+            requiredCostText.text = "" + maxCost;
         return plusCost;
     }
 

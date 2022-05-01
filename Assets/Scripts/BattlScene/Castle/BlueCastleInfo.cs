@@ -1,11 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BlueCastleInfo : CastleInfo
 {
-    public void Start()
+    public Text requiredPopulationUpText;
+    public Text populationText;
+    public Text populationShadowText;
+
+    protected override void Start()
     {
+        base.Start();
+        requiredPopulationUpText.text = "" + populationLevel * 10;
+    }
+    void Update()
+    {
+        populationShadowText.text = curPopulation + "/" + maxPopulation;
+        populationText.text = curPopulation + "/" + maxPopulation;
 
     }
     public void topPath()
@@ -19,6 +31,13 @@ public class BlueCastleInfo : CastleInfo
     public void bottomPath()
     {
         path = -2;
+    }
+
+
+    protected override void UpgradePopulationLevel()
+    {
+        base.UpgradePopulationLevel();
+        requiredPopulationUpText.text = "" + populationLevel * 10;
     }
 
     float BluePathY(int bluePath)

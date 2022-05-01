@@ -47,12 +47,12 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
 
     private void Update()
     {
-        if (cost > gameManager.blueCost.cost && isUnit) // 돈없으면 비활성화.
+        if (cost > gameManager.blueCost.curCost && isUnit) // 돈없으면 비활성화.
         {
             gameObject.GetComponent<Image>().sprite = limitStateSprite;
             activeButton = false;
         }
-        else if (!gameManager.stageEnd && cost <= gameManager.blueCost.cost && isUnit) // 돈있으면 활성화.
+        else if (!gameManager.stageEnd && cost <= gameManager.blueCost.curCost && isUnit) // 돈있으면 활성화.
         {
             gameObject.GetComponent<Image>().sprite = rawSprite;
             activeButton = true;

@@ -1001,13 +1001,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c1d58082ea79d5439c2649639683722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 0
+  curCost: 0
   plusCost: 0
   maxCost: 0
   gameManager: {fileID: 2081322173}
   castleInfo: {fileID: 220026242}
-  costText: {fileID: 1522609711}
-  populationText: {fileID: 0}
+  requiredCostText: {fileID: 0}
   waitForSecond: 0
 --- !u!61 &220026241
 BoxCollider2D:
@@ -1420,14 +1419,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d2a16df50156fa4790e75c4a78d7014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 0
+  curCost: 0
   plusCost: 0
   maxCost: 0
   gameManager: {fileID: 2081322173}
   castleInfo: {fileID: 327311752}
-  costText: {fileID: 1991646263}
-  populationText: {fileID: 458163689}
-  populationText: {fileID: 458163689}
+  requiredCostText: {fileID: 1991646263}
 --- !u!212 &327311749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1538,6 +1535,9 @@ MonoBehaviour:
   castleLevel: 1
   curPopulation: 0
   maxPopulation: 10
+  requiredPopulationUpText: {fileID: 458163689}
+  populationText: {fileID: 1751529340}
+  populationShadowText: {fileID: 1360038646}
 --- !u!1 &343627802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,7 +2019,7 @@ GameObject:
   - component: {fileID: 458163690}
   - component: {fileID: 458163689}
   m_Layer: 5
-  m_Name: UnitCountCost
+  m_Name: RequiredPopulationUpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4731,7 +4731,7 @@ GameObject:
   - component: {fileID: 1360038647}
   - component: {fileID: 1360038646}
   m_Layer: 5
-  m_Name: UnitCountShadowText
+  m_Name: PopulationShadowText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6223,7 +6223,7 @@ GameObject:
   - component: {fileID: 1751529341}
   - component: {fileID: 1751529340}
   m_Layer: 5
-  m_Name: UnitCountText
+  m_Name: PopulationText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7004,7 +7004,7 @@ GameObject:
   - component: {fileID: 1991646264}
   - component: {fileID: 1991646263}
   m_Layer: 5
-  m_Name: CostCost
+  m_Name: RequiredCostText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
