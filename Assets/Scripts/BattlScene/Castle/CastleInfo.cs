@@ -38,7 +38,7 @@ public class CastleInfo : MonoBehaviour
             cost.cost -= populationLevel * 10;
             populationLevel += 1;
             if (gameObject.layer == 8)
-            cost.pop  lationText.text = "" + populationLevel * 10;
+            //cost.populationText.text = "" + populationLevel * 10;
             maxPopulation = populationLevel * 10;
         }
     }
