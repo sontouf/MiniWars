@@ -2540,8 +2540,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2081322173}
-          m_TargetAssemblyTypeName: 
+        - m_Target: {fileID: 327311752}
+          m_TargetAssemblyTypeName: BlueCastleInfo, Assembly-CSharp
           m_MethodName: topPath
           m_Mode: 1
           m_Arguments:
@@ -4068,8 +4068,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2081322173}
-          m_TargetAssemblyTypeName: 
+        - m_Target: {fileID: 327311752}
+          m_TargetAssemblyTypeName: BlueCastleInfo, Assembly-CSharp
           m_MethodName: middlePath
           m_Mode: 1
           m_Arguments:
@@ -5826,8 +5826,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2081322173}
-          m_TargetAssemblyTypeName: 
+        - m_Target: {fileID: 327311752}
+          m_TargetAssemblyTypeName: BlueCastleInfo, Assembly-CSharp
           m_MethodName: bottomPath
           m_Mode: 1
           m_Arguments:

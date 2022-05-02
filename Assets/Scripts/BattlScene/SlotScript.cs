@@ -45,7 +45,7 @@ public class SlotScript : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    private void Update()
+    private void Update()  // sprite 이미지 변화때문에 update문 필요.
     {
         if (cost > gameManager.blueCost.curCost && isUnit) // 돈없으면 비활성화.
         {
