@@ -53,12 +53,13 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
     // Start is called before the first frame update
     void Start()
     {
-       /* bluePath = 0;
-        redPath = 0;
-        blueCurUnitNumber = 0;
-        blueMaxUnitNumber = 10;
-        blueCastleLevel = 1;
-        blueUnitLevel = 1;*/
+        /* bluePath = 0;
+         redPath = 0;
+         blueCurUnitNumber = 0;
+         blueMaxUnitNumber = 10;
+         blueCastleLevel = 1;
+         blueUnitLevel = 1;*/
+        //bluePosition = GameObject.Find("");
         redCastleLevel = 1;
         redUnitLevel = 1;
         redCurUnitNumber = 0;
@@ -168,43 +169,7 @@ public class GameManager : MonoBehaviour // gameManager 이긴한데 Battle mana
     }
     // --------------------------------------------------------------------------------
 
-
-
-
-/*    static public GameObject CreateUnitPosition(GameObject target)
-    {
-        // MiniMap의 유닛 위치를 생성해주는 함수이다.인자로 위치표시가 필요한 target이 들어온다.
-        child = Instantiate(bluePosition);
-        child.transform.SetParent(canvasObject.transform);
-
-        child.transform.localScale = new Vector3(1, 1, 1);
-        child.GetComponent<RectTransform>().position = new Vector3(40, BluePathY(bluePath), 0) * canvasObject.GetComponent<RectTransform>().localScale.x;
-        // Debug.Log("a : " + child.GetComponent<RectTransform>().position);
-        child.GetComponent<BluePosition>().target = target;
-        return child;
-    }*/
-/*
-    float BluePathY(int bluePath)
-    {
-        float bluePathY = 0;
-        if (bluePath == 2)
-        {
-            bluePathY = 23.5f;
-        }
-        else if (bluePath == 0)
-        {
-            bluePathY = 15.7f;
-
-        }
-        else if (bluePath == -2)
-        {
-            bluePathY = 8;
-        }
-        return bluePathY;
-    }
-*/
-
-   Sprite SlotSetting(GameObject gameObject, int idx) 
+    Sprite SlotSetting(GameObject gameObject, int idx) 
     {
         string keyValue;
         // Battle 시작시 왼쪽에 나열된 유닛창에 대한 정보. 한 슬롯에 대해 적용된다.
