@@ -15,7 +15,7 @@ public class RedCost : Cost
 
     protected override IEnumerator AddCost()
     {
-        while (!gameManager.stageEnd)
+        while (!battleManager.stageEnd)
         {
             if (curCost < maxCost)
             {

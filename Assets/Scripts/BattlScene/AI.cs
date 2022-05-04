@@ -21,7 +21,7 @@ public class AI : MonoBehaviour
 
     public int redPath;
 
-    public GameManager gameManager;
+    public BattleManager battleManager;
 
     public GameObject redPosition;
 
@@ -37,6 +37,7 @@ public class AI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        battleManager = GetComponent<BattleManager>();
         second = redCost.waitForSecond;
         pattern = 0;
         SetPattern();
@@ -48,9 +49,9 @@ public class AI : MonoBehaviour
     IEnumerator ArcherAndSward()
     {
         bool patternEnd = false;
-        while (!patternEnd && !gameManager.stageEnd)
+        while (!patternEnd && !battleManager.stageEnd)
         {
-            if (redCost.curCost >= 8 && GameManager.redCurUnitNumber < redCastleInfo.maxPopulation)
+            if (redCost.curCost >= 8 && BattleManager.redCurUnitNumber < redCastleInfo.maxPopulation)
             { // 일단 8만큼 채움.
                 redPath = Random.Range(-1, 2);
                 int rand = Random.Range(0, 2);
@@ -60,7 +61,7 @@ public class AI : MonoBehaviour
                     case 0:
                         target = Instantiate(swardPrefab, new Vector3(18, redPath * 2, 0), Quaternion.identity);
                         redCost.curCost -= 3;
-                        GameManager.redCurUnitNumber += 1;
+                        BattleManager.redCurUnitNumber += 1;
                         target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target, redPath * 2);
                         break;
                         /*                    case 1:
@@ -285,7 +286,7 @@ public class AI : MonoBehaviour
                 pattern = Random.Range(0, 2); // 돈은 좀 있으니 병사 뽑자.
         }
 */
-        if (!gameManager.stageEnd)
+        if (!battleManager.stageEnd)
         {
             switch (pattern)
             {

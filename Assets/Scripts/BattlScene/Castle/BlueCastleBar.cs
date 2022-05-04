@@ -16,12 +16,13 @@ public class BlueCastleBar : MonoBehaviour
     public float width;
     public float height;
 
-    public GameManager gameManager;
+    public BattleManager battleManager;
 
     //Vector2 result;
     // Start is called before the first frame update
     void Start()
     {
+        battleManager = GameObject.Find("Master").GetComponent<BattleManager>();
         maxHp = 1000;
         curHp = maxHp;
         rectTransform = GetComponent<RectTransform>();
@@ -43,8 +44,8 @@ public class BlueCastleBar : MonoBehaviour
 
         if (curHp <= 0)
         {
-            gameManager.win = false;
-            gameManager.stageEnd = true;
+            battleManager.win = false;
+            battleManager.stageEnd = true;
         }
     }
 }

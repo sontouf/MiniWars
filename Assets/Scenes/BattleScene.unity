@@ -297,7 +297,6 @@ GameObject:
   - component: {fileID: 61921304}
   - component: {fileID: 61921303}
   - component: {fileID: 61921302}
-  - component: {fileID: 61921301}
   m_Layer: 5
   m_Name: Slot3
   m_TagString: Untagged
@@ -324,30 +323,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &61921301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61921299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 490719594}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!114 &61921302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,7 +979,7 @@ MonoBehaviour:
   curCost: 0
   plusCost: 0
   maxCost: 0
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
   castleInfo: {fileID: 220026242}
   requiredCostText: {fileID: 0}
   waitForSecond: 0
@@ -1046,7 +1021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d908f08590544c144b43866f3bf41db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
   path: 0
   populationLevel: 1
   cost: {fileID: 220026240}
@@ -1190,7 +1165,7 @@ MonoBehaviour:
   need: {x: 0, y: 0}
   width: 0
   height: 0
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
 --- !u!114 &267714245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1422,7 +1397,7 @@ MonoBehaviour:
   curCost: 0
   plusCost: 0
   maxCost: 0
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
   castleInfo: {fileID: 327311752}
   requiredCostText: {fileID: 1991646263}
 --- !u!212 &327311749
@@ -1528,7 +1503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df9580ad92ba124ba5004ea601ed907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
   path: 0
   populationLevel: 1
   cost: {fileID: 327311748}
@@ -1538,6 +1513,7 @@ MonoBehaviour:
   requiredPopulationUpText: {fileID: 458163689}
   populationText: {fileID: 1751529340}
   populationShadowText: {fileID: 1360038646}
+  bluePosition: {fileID: 0}
 --- !u!1 &343627802
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,7 +1605,6 @@ GameObject:
   - component: {fileID: 368369462}
   - component: {fileID: 368369461}
   - component: {fileID: 368369460}
-  - component: {fileID: 368369459}
   m_Layer: 5
   m_Name: Slot1
   m_TagString: Untagged
@@ -1656,30 +1631,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &368369459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 368369457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 2034777759}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!114 &368369460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2706,7 +2657,6 @@ GameObject:
   - component: {fileID: 598475059}
   - component: {fileID: 598475058}
   - component: {fileID: 598475057}
-  - component: {fileID: 598475056}
   m_Layer: 5
   m_Name: Slot7
   m_TagString: Untagged
@@ -2733,30 +2683,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &598475056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 598475054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 1586950285}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!114 &598475057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2945,7 +2871,7 @@ MonoBehaviour:
   need: {x: 0, y: 0}
   width: 0
   height: 0
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
 --- !u!114 &657266019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5131,7 +5057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db337f42591cc0c4fb29193775c83056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
   blueCastleInfo: {fileID: 327311752}
 --- !u!1 &1522609709
 GameObject:
@@ -5453,7 +5379,6 @@ GameObject:
   - component: {fileID: 1627273827}
   - component: {fileID: 1627273826}
   - component: {fileID: 1627273825}
-  - component: {fileID: 1627273828}
   m_Layer: 5
   m_Name: Slot0
   m_TagString: Untagged
@@ -5535,30 +5460,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627273823}
   m_CullTransparentMesh: 0
---- !u!114 &1627273828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627273823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 1550185092}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!1 &1636934991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5571,7 +5472,6 @@ GameObject:
   - component: {fileID: 1636934996}
   - component: {fileID: 1636934995}
   - component: {fileID: 1636934994}
-  - component: {fileID: 1636934993}
   m_Layer: 5
   m_Name: Slot2
   m_TagString: Untagged
@@ -5598,30 +5498,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1636934993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636934991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 434495324}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!114 &1636934994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6768,7 +6644,6 @@ GameObject:
   - component: {fileID: 1955069242}
   - component: {fileID: 1955069241}
   - component: {fileID: 1955069240}
-  - component: {fileID: 1955069239}
   m_Layer: 5
   m_Name: Slot6
   m_TagString: Untagged
@@ -6795,30 +6670,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1955069239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955069237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 1681968067}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!114 &1955069240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6886,7 +6737,6 @@ GameObject:
   - component: {fileID: 1983426299}
   - component: {fileID: 1983426298}
   - component: {fileID: 1983426297}
-  - component: {fileID: 1983426296}
   m_Layer: 5
   m_Name: Slot4
   m_TagString: Untagged
@@ -6913,30 +6763,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1983426296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983426294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 687455384}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!114 &1983426297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7233,7 +7059,6 @@ GameObject:
   - component: {fileID: 2052682247}
   - component: {fileID: 2052682246}
   - component: {fileID: 2052682245}
-  - component: {fileID: 2052682244}
   m_Layer: 5
   m_Name: Slot5
   m_TagString: Untagged
@@ -7260,30 +7085,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2052682244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052682242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0472d3691be1f8438adae2a917f17d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coolTimeImage: {fileID: 1896867205}
-  tagName: 
-  gameManager: {fileID: 2081322173}
-  cost: 0
-  limitStateSprite: {fileID: 0}
-  coolTimelimitState: 0
-  coolTiming: 0
-  activeButton: 0
-  isUnit: 0
-  coolTime: 0
-  buttonScript: {fileID: 1511226222}
-  rawSprite: {fileID: 0}
 --- !u!114 &2052682245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7370,7 +7171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasObject: {fileID: 1155500474}
-  child: {fileID: 0}
   hpCanvas: {fileID: 537905215}
   victory: {fileID: 1954512371}
   defeat: {fileID: 617088364}
@@ -7378,8 +7178,6 @@ MonoBehaviour:
   controlSet: {fileID: 1381333631}
   win: 0
   stageEnd: 0
-  blueCost: {fileID: 327311748}
-  redCost: {fileID: 220026240}
   empty: {fileID: 21300000, guid: 3b1371f2f89672b4fbdd768cd4f57319, type: 3}
   unitSlot:
   - {fileID: 1627273823}
@@ -7438,7 +7236,7 @@ MonoBehaviour:
     type: 3}
   redCastleInfo: {fileID: 220026242}
   redPath: 0
-  gameManager: {fileID: 2081322173}
+  battleManager: {fileID: 0}
   redPosition: {fileID: 5840356270949333304, guid: efad9559da6fa0849a60816909d8cd65,
     type: 3}
   canvasObject: {fileID: 1155500474}

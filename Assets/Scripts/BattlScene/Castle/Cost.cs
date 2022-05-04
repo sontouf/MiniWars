@@ -7,7 +7,7 @@ public class Cost : MonoBehaviour
     public int curCost;
     public int plusCost;
     public int maxCost;
-    public GameManager gameManager;
+    public BattleManager battleManager;
     public CastleInfo castleInfo;
     public Text requiredCostText;
     //public Text populationText;
@@ -16,6 +16,7 @@ public class Cost : MonoBehaviour
     {
         maxCost = 10;
         curCost = 0;
+        battleManager = GameObject.Find("Master").GetComponent<BattleManager>();
         castleInfo = GetComponent<CastleInfo>();
         StartCoroutine("AddCost");
         if (requiredCostText)
@@ -26,7 +27,7 @@ public class Cost : MonoBehaviour
     protected virtual IEnumerator AddCost()
     {
 
-        while (!gameManager.stageEnd)
+        while (!battleManager.stageEnd)
         {
             if (curCost < maxCost)
             {

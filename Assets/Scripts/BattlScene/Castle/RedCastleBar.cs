@@ -15,11 +15,12 @@ public class RedCastleBar : MonoBehaviour
     public Vector2 need;
     public float width;
     public float height;
-    public GameManager gameManager;
+    public BattleManager battleManager;
     //Vector2 result;
     // Start is called before the first frame update
     void Start()
     {
+        battleManager = GameObject.Find("Master").GetComponent<BattleManager>();
         maxHp = 1000;
         curHp = maxHp;
         rectTransform = GetComponent<RectTransform>();
@@ -39,8 +40,8 @@ public class RedCastleBar : MonoBehaviour
         costShadowText.text = "" + curHp;
         if (curHp <= 0)
         {
-            gameManager.win = true;
-            gameManager.stageEnd = true;
+            battleManager.win = true;
+            battleManager.stageEnd = true;
         }
     }
 }

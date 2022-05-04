@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-    public GameManager gameManager;
+    public BattleManager battleManager;
     public BlueCastleInfo blueCastleInfo;
-    GameObject child;
     //-------------------------
 /*    const string blueSwardPrefabPath = "Prefabs/BlueUnit/BlueSward";
     const string blueArcherPrefabPath = "Prefabs/BlueUnit/BlueArcher";*/
@@ -14,17 +13,21 @@ public class ButtonScript : MonoBehaviour
     { "Prefabs/BlueUnit/BlueSward", "Prefabs/BlueUnit/BlueArcher", "Prefabs/BlueUnit/BlueArmouredSward",
     "Prefabs/BlueUnit/BlueArtilleryMan", "Prefabs/BlueUnit/BlueCavalry", "Prefabs/BlueUnit/BluePatrol",
     "Prefabs/BlueUnit/BlueRoyalGuard", "Prefabs/BlueUnit/BlueShield", "Prefabs/BlueUnit/BlueSpearMan"};
-    
+
+    private void Start()
+    {
+        battleManager = GameObject.Find("Master").GetComponent<BattleManager>();
+    }
 
     public void Button(MyType.UnitType unitType)
     {
-        if (!gameManager.stageEnd && blueCastleInfo.curPopulation < blueCastleInfo.maxPopulation && blueCastleInfo.cost.curCost >= MyType.UnitCost[(int)unitType])
+        if (!battleManager.stageEnd && blueCastleInfo.curPopulation < blueCastleInfo.maxPopulation && blueCastleInfo.cost.curCost >= MyType.UnitCost[(int)unitType])
         {
             //Debug.Log("int ?? " + (int)unitType);
             GameObject target = Instantiate(Resources.Load(unitPrefabPath[(int)unitType]) as GameObject, new Vector3(-18, blueCastleInfo.path, 0), Quaternion.identity);
             blueCastleInfo.curPopulation += 1;
             blueCastleInfo.cost.curCost -= MyType.UnitCost[(int)unitType];
-            target.GetComponent<UnitInfo>().positionObject = CreateUnitPosition(target);
+            CreateUnitPosition(target, target.GetComponent<UnitInfo>().positionObject);
         }
     }
 
@@ -47,16 +50,16 @@ public class ButtonScript : MonoBehaviour
         return bluePathY;
     }
 
-    public GameObject CreateUnitPosition(GameObject target)
+    void CreateUnitPosition(GameObject target, GameObject positionObject)
     {
         // MiniMap의 유닛 위치를 생성해주는 함수이다.인자로 위치표시가 필요한 target이 들어온다.
-        child = Instantiate(blueCastleInfo.bluePosition);
-        child.transform.SetParent(gameManager.canvasObject.transform);
+        positionObject = Instantiate(blueCastleInfo.bluePosition);
+        positionObject.transform.SetParent(battleManager.canvasObject.transform);
 
-        child.transform.localScale = new Vector3(1, 1, 1);
-        child.GetComponent<RectTransform>().position = new Vector3(40, BluePathY(blueCastleInfo.path), 0) * gameManager.canvasObject.GetComponent<RectTransform>().localScale.x;
+        positionObject.transform.localScale = new Vector3(1, 1, 1);
+        positionObject.GetComponent<RectTransform>().position = new Vector3(40, BluePathY(blueCastleInfo.path), 0) * battleManager.canvasObject.GetComponent<RectTransform>().localScale.x;
         // Debug.Log("a : " + child.GetComponent<RectTransform>().position);
-        child.GetComponent<BluePosition>().target = target;
-        return child;
+        positionObject.AddComponent<BluePosition>();
+        positionObject.GetComponent<BluePosition>().target = target;
     }
 }

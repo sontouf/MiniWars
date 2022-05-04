@@ -61,14 +61,17 @@
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\Team.cs" />
     <Compile Include="Assets\Scripts\BattlScene\Setting\BarControl.cs" />
     <Compile Include="Assets\Scripts\StageSelectScene\ClickUnitButton.cs" />
+    <Compile Include="Assets\Scripts\BattlScene\Castle\Cost.cs" />
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\UnitInfo.cs" />
-    <Compile Include="Assets\Scripts\BattlScene\GameManager.cs" />
+    <Compile Include="Assets\Scripts\BattlScene\BattleManager.cs" />
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\ScanEnemy.cs" />
     <Compile Include="Assets\Scripts\BattlScene\SlotScript.cs" />
     <Compile Include="Assets\Scripts\BattlScene\State\HitState.cs" />
     <Compile Include="Assets\Scripts\SceneManagerScript.cs" />
+    <Compile Include="Assets\Scripts\BattlScene\Castle\RedCastleInfo.cs" />
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\Unit\Patrol.cs" />
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\Unit\Artilleryman.cs" />
+    <Compile Include="Assets\Scripts\BattlScene\Castle\BlueCastleInfo.cs" />
     <Compile Include="Assets\Scripts\BattlScene\MiniMap\RedUnitPosition.cs" />
     <Compile Include="Assets\Scripts\BattlScene\Castle\BlueCastleBar.cs" />
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\Unit\Shield.cs" />
@@ -86,7 +89,7 @@
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\Unit\RoyalGuard.cs" />
     <Compile Include="Assets\Scripts\BattlScene\AI.cs" />
     <Compile Include="Assets\Resources\Bolt 2D LittleWars VE3\Cavalry.cs" />
-    <Compile Include="Assets\Scripts\BattlScene\UnitCount.cs" />
+    <Compile Include="Assets\Scripts\BattlScene\Castle\CastleInfo.cs" />
     <Compile Include="Assets\Scripts\BattlScene\Castle\BlueCost.cs" />
     <Compile Include="Assets\Scripts\BattlScene\MyType.cs" />
     <Compile Include="Assets\Scripts\BattlScene\UnitScripts\Unit\Spearman.cs" />
@@ -99,10 +102,6 @@
     <Compile Include="Assets\Resources\Bolt 2D LittleWars VE3\ReadMe\Scripts\ReadmeVE3.cs" />
     <Compile Include="Assets\Scripts\BattlScene\Setting\Title.cs" />
     <Compile Include="Assets\Scripts\BattlScene\Arrow.cs" />
-    <Compile Include="Assets\Scripts\BattlScene\Castle\BlueCastleInfo.cs" />
-    <Compile Include="Assets\Scripts\BattlScene\Castle\RedCastleInfo.cs" />
-    <Compile Include="Assets\Scripts\BattlScene\Castle\CastleInfo.cs" />
-    <Compile Include="Assets\Scripts\BattlScene\Castle\Cost.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

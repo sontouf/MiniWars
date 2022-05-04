@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CastleInfo : MonoBehaviour
 {
-    public GameManager gameManager;
+    public BattleManager battleManager;
 
     public int path = 0;
     public int populationLevel = 1;
@@ -15,7 +15,7 @@ public class CastleInfo : MonoBehaviour
 
     protected virtual void Start()
     {
-        gameManager = GameObject.Find("Master").GetComponent<GameManager>();
+        battleManager = GameObject.Find("Master").GetComponent<BattleManager>();
         if (gameObject.layer == 8)
             cost = GetComponent<BlueCost>();
         else
@@ -24,7 +24,7 @@ public class CastleInfo : MonoBehaviour
 
     public void UpgradeCastleLevel()
     {
-        if (!gameManager.stageEnd && cost.curCost == cost.maxCost)
+        if (!battleManager.stageEnd && cost.curCost == cost.maxCost)
         {
             cost.curCost -= cost.maxCost;
             castleLevel += 1;
@@ -33,7 +33,7 @@ public class CastleInfo : MonoBehaviour
 
     protected virtual void UpgradePopulationLevel()
     {
-        if (!gameManager.stageEnd && cost.curCost >= populationLevel * 10)
+        if (!battleManager.stageEnd && cost.curCost >= populationLevel * 10)
         {
             cost.curCost -= populationLevel * 10;
             populationLevel += 1;

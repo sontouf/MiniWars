@@ -7,6 +7,7 @@ public class BluePosition : MonoBehaviour
     public GameObject target;
     public GameObject blueCastle;
     public GameObject canvasObject;
+    UnitInfo unitInfo;
     float bluePath;
     float scaleX;
     // Update is called once per frame
@@ -18,12 +19,16 @@ public class BluePosition : MonoBehaviour
         scaleX = canvasObject.GetComponent<RectTransform>().localScale.x;
         bluePath = ResultY(blueCastle.GetComponent<BlueCastleInfo>().path);
         GetComponent<RectTransform>().position = new Vector3(40, 17, 0) * canvasObject.GetComponent<RectTransform>().localScale.x;
+        unitInfo = target.GetComponent<UnitInfo>();
     }
 
     void Update()
     {
-        GetComponent<RectTransform>().position = CalculatePos(target.transform.position.x);
-            //ResultY(master.GetComponent<GameManager>().bluePath), 0));
+        if (!unitInfo.isDead)
+            GetComponent<RectTransform>().position = CalculatePos(target.transform.position.x);
+        //ResultY(master.GetComponent<GameManager>().bluePath), 0));
+        else
+            Destroy(gameObject);
     }
 
     public Vector3 CalculatePos(float targetPosX)

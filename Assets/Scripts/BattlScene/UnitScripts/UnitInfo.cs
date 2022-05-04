@@ -54,7 +54,7 @@ public class UnitInfo : MonoBehaviour
         if (curHp <= 0 && !isDead)
         {
             animator.SetTrigger("Die");
-            //castleInfo.curUnitNumber -= 1;
+            castleInfo.curPopulation -= 1;
             isDead = !isDead;
         }
         if (child)
