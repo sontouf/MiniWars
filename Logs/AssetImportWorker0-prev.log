@@ -15,11 +15,11 @@ C:/Users/eunoi/Unity projects/MiniWars/miniwars
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53304
+51076
 Successfully changed project path to: C:/Users/eunoi/Unity projects/MiniWars/miniwars
 C:/Users/eunoi/Unity projects/MiniWars/miniwars
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Users/eunoi/Unity projects/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,90 +35,90 @@ Initialize mono
 Mono path[0] = 'C:/Users/eunoi/Unity projects/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/eunoi/Unity projects/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/eunoi/Unity projects/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/eunoi/Unity projects/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002690 seconds.
+Registered in 0.004352 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  1.269 seconds
 Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (586ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (399ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (216ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006255 seconds.
+Registered in 0.008608 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\eunoi\Unity projects\MiniWars\miniwars\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.592 seconds
+- Completed reload, in  2.147 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1593ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (2149ms)
+		BeginReloadAssembly (282ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1304ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1747ms)
+			LoadAssemblies (174ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
+			SetupTypeCache (447ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (168ms)
-			SetupLoadedEditorAssemblies (448ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (789ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (37ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2251 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.8 MB.
 System memory in use after: 100.9 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-Total: 4.141300 ms (FindLiveObjects: 0.208700 ms CreateObjectMapping: 0.096600 ms MarkObjects: 3.727400 ms  DeleteObjects: 0.107100 ms)
+Total: 3.459500 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.087900 ms MarkObjects: 3.072300 ms  DeleteObjects: 0.111800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,56 +132,335 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Scripts/SceneManagerScript.cs
+  artifactKey: Guid(6090527794f32784194d6d1bf35daa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneManagerScript.cs using Guid(6090527794f32784194d6d1bf35daa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dfb710a2b8cf1d3c4f1befb9bf9697') in 0.067488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.548463 seconds.
+  path: Assets/Scripts/BattlScene/ButtonScript.cs
+  artifactKey: Guid(db337f42591cc0c4fb29193775c83056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/ButtonScript.cs using Guid(db337f42591cc0c4fb29193775c83056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ea8a66d5cd687e3f026573c77b4016') in 0.003618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.184589 seconds.
+  path: Assets/Scripts/BattlScene/State/ReadyState.cs
+  artifactKey: Guid(a7fb885085e229141850ac2da70921bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/State/ReadyState.cs using Guid(a7fb885085e229141850ac2da70921bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5847d22c30f4c298887695ea367ac9ca') in 0.004325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.684623 seconds.
+  path: Assets/Scripts/BattlScene/State/DieState.cs
+  artifactKey: Guid(9eb7cc38dd51410488bf0125fd47ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/State/DieState.cs using Guid(9eb7cc38dd51410488bf0125fd47ed12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab07f98b7d6d6cdcd8df833b93958477') in 0.005826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.272747 seconds.
+  path: Assets/Scripts/BattlScene/State/HitState.cs
+  artifactKey: Guid(91bfb6f3bc636ed47b90a381bd2656fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/State/HitState.cs using Guid(91bfb6f3bc636ed47b90a381bd2656fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866a867c4f00d62641a0eb2ac97717e0') in 0.003725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.796140 seconds.
+  path: Assets/Scripts/BattlScene/State/MoveState.cs
+  artifactKey: Guid(2ade0ebdf9fee954fac3a0de83bb9417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/State/MoveState.cs using Guid(2ade0ebdf9fee954fac3a0de83bb9417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ff8cbca8f071a42bc23ccf68ab8eb6') in 0.005801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.299009 seconds.
+  path: Assets/Scripts/BattlScene/Castle/BlueCastleInfo.cs
+  artifactKey: Guid(2df9580ad92ba124ba5004ea601ed907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/Castle/BlueCastleInfo.cs using Guid(2df9580ad92ba124ba5004ea601ed907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a64b60dd889479a6730a58a3c96ac1') in 0.006284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788882 seconds.
+  path: Assets/Scripts/BattlScene/Castle/RedCost.cs
+  artifactKey: Guid(1c1d58082ea79d5439c2649639683722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/Castle/RedCost.cs using Guid(1c1d58082ea79d5439c2649639683722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c646101f842b6c2935db7323ef1933') in 0.003824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.830189 seconds.
+  path: Assets/Scripts/BattlScene/Castle/Cost.cs
+  artifactKey: Guid(7fbff406322e72941a3f33f3596ce379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/Castle/Cost.cs using Guid(7fbff406322e72941a3f33f3596ce379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82ad6ab8af04e43926f8175799b2a03') in 0.003171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.076868 seconds.
   path: Assets/Scenes/BattleScene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BattleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7023ef1335724becdf783397620a6e66') in 0.007286 seconds 
+Start importing Assets/Scenes/BattleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640b5eb460d1ed4d1d4fb540bd8d1798') in 0.003317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.518468 seconds.
+  path: Assets/Scripts/StageSelectScene/UnitBox.cs
+  artifactKey: Guid(0df6ffb23e20a374080f2d45ab684020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageSelectScene/UnitBox.cs using Guid(0df6ffb23e20a374080f2d45ab684020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35512c98bfc561ed2aa7469201ccac2') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.042385 seconds.
+  path: Assets/Scripts/StageSelectScene/UnitSpriteManager.cs
+  artifactKey: Guid(89cce18e6873a88469f8e806489161c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageSelectScene/UnitSpriteManager.cs using Guid(89cce18e6873a88469f8e806489161c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bf06d5f4a10ae6a8c202081a18cd79') in 0.004303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.742346 seconds.
+  path: Assets/Scripts/BattlScene/MiniMap/BluePosition.cs
+  artifactKey: Guid(e1300cc6a72a8164e8915f956f42b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/MiniMap/BluePosition.cs using Guid(e1300cc6a72a8164e8915f956f42b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc495b482f15090ef2464d25cb8d52a') in 0.003873 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008968 seconds.
+Registered in 0.007184 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\eunoi\Unity projects\MiniWars\miniwars\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.164 seconds
+- Completed reload, in  2.340 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2165ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (2341ms)
+		BeginReloadAssembly (251ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (1785ms)
-			LoadAssemblies (239ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1879ms)
+			LoadAssemblies (292ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (617ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (615ms)
+			SetupTypeCache (673ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (571ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (167ms)
-				ProcessInitializeOnLoadAttributes (392ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2244 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.4 MB.
 System memory in use after: 100.6 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2693.
-Total: 6.468900 ms (FindLiveObjects: 0.277600 ms CreateObjectMapping: 0.137900 ms MarkObjects: 6.017000 ms  DeleteObjects: 0.035000 ms)
+Total: 4.104400 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.143000 ms MarkObjects: 3.688400 ms  DeleteObjects: 0.055000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 432.993160 seconds.
+  path: Assets/Scripts/BattlScene/GameManager.cs
+  artifactKey: Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/GameManager.cs using Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3f67e03093ca847e01bd8785eff9e8') in 0.015208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.181547 seconds.
+  path: Assets/Scripts/BattlScene/GameManager.cs
+  artifactKey: Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/GameManager.cs using Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4ece4ddd5c124777b05a862ff3ced3') in 0.004215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.203966 seconds.
+  path: Assets/Scripts/BattlScene/GameManager.cs
+  artifactKey: Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/GameManager.cs using Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3740a7dcc31db225832f76b941f596') in 0.003799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.146175 seconds.
+  path: Assets/Scripts/BattlScene/GameManager.cs
+  artifactKey: Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BattlScene/GameManager.cs using Guid(3e73cf4fe9282c3418b3009acde5bff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4d74dc5e9371a0087631eb7fea9b90') in 0.004184 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013618 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\eunoi\Unity projects\MiniWars\miniwars\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2111ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1751ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (590ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 6.213000 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.113000 ms MarkObjects: 5.807200 ms  DeleteObjects: 0.038700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011485 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\eunoi\Unity projects\MiniWars\miniwars\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.131 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3132ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2742ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1432ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (637ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 5.483500 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.199400 ms MarkObjects: 4.893700 ms  DeleteObjects: 0.044700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286.490878 seconds.
+  path: Assets/Resources/Prefabs/RedUnit
+  artifactKey: Guid(4f604a7c42ee1a7489dad55ff3813125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/RedUnit using Guid(4f604a7c42ee1a7489dad55ff3813125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6314c7c33b608a5b4d3d4357dfcd67af') in 0.015786 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\eunoi\Unity projects\MiniWars\miniwars\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.291 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2291ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1865ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (589ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 5.261800 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.137900 ms MarkObjects: 4.891300 ms  DeleteObjects: 0.043900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

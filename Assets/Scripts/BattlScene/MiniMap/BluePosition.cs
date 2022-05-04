@@ -5,7 +5,7 @@ using UnityEngine;
 public class BluePosition : MonoBehaviour
 {
     public GameObject target;
-    public GameObject master;
+    public GameObject blueCastle;
     public GameObject canvasObject;
     float bluePath;
     float scaleX;
@@ -13,11 +13,11 @@ public class BluePosition : MonoBehaviour
 
     private void Start()
     {
-        master = GameObject.Find("Master");
+        blueCastle = GameObject.Find("BlueCastle");
         canvasObject = GameObject.Find("SettingCanvas");
         scaleX = canvasObject.GetComponent<RectTransform>().localScale.x;
-        //bluePath = ResultY(master.GetComponent<GameManager>().bluePath);
-        //GetComponent<RectTransform>().position = new Vector3(40, 17, 0) * canvasObject.GetComponent<RectTransform>().localScale.x;
+        bluePath = ResultY(blueCastle.GetComponent<BlueCastleInfo>().path);
+        GetComponent<RectTransform>().position = new Vector3(40, 17, 0) * canvasObject.GetComponent<RectTransform>().localScale.x;
     }
 
     void Update()
