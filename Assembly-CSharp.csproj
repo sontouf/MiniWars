@@ -102,6 +102,7 @@
     <Compile Include="Assets\Resources\Bolt 2D LittleWars VE3\ReadMe\Scripts\ReadmeVE3.cs" />
     <Compile Include="Assets\Scripts\BattlScene\Setting\Title.cs" />
     <Compile Include="Assets\Scripts\BattlScene\Arrow.cs" />
+    <Compile Include="Assets\Scripts\BattlScene\Castle\CastleBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

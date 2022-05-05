@@ -249,6 +249,87 @@
 > > | CreateUnitPosition | **GameObject** target, **GameObject** positionObjec | **void** | target을 객체화시키고 미니맵에 위치를 알려주는 객체를 생성한다. |
 > > | BluePathY          |                  **int** bluePath                   | **void** | 입력받은 값으로 미니맵위치를 설정한다.                       |
 > >
+>
+> - **CastleInfo **(parentClass)  **->** **BlueCastleInfo, RedCastleInfo**
+>
+> > 각 성의 정보를 담고있으며 업그레이드 관련 함수를 가지고 있다.
+> >
+> > | 접근한정자 | 메소드 | 변수                          | 내용                                                       |
+> > | ---------- | ------ | ----------------------------- | ---------------------------------------------------------- |
+> > | **public** |        | **int** path                  | 유닛이 생성될 길을 나타낸다.                               |
+> > |            |        | **int** populationLevel       | 인구수 레벨을 나타낸다.                                    |
+> > |            |        | **int** castleLevel           | 성 레벨을 나타낸다.                                        |
+> > |            |        | **int** curPopulation         | 현재 인구수를 나타낸다.                                    |
+> > |            |        | **int** maxPopulation         | 최대 인구수를 나타낸다.                                    |
+> > |            |        | **Cost** cost                 | 업그레이드 함수에서 현재 cost정보를 받아오기위해 추가했다. |
+> > |            |        | **void** UpgradeCastleLevel() |                                                            |
+> >
+> > | 접근한정자    | 메소드                                  | 변수 | 내용 |
+> > | ------------- | --------------------------------------- | ---- | ---- |
+> > | **protected** | **virtual void** UpgradePopulationLevel |      |      |
+> >
+> > | Function Name          | parameter |  return  | 설명                                                         |
+> > | ---------------------- | :-------: | :------: | ------------------------------------------------------------ |
+> > | UpgradeCastleLevel     | **void**  | **void** | target을 객체화시키고 미니맵에 위치를 알려주는 객체를 생성한다. |
+> > | UpgradePopulationLevel | **void**  | **void** | 입력받은 값으로 미니맵위치를 설정한다.                       |
+>
+> - **BlueCastleInfo **(child class)
+>
+> | 접근한정자 | 메소드                | 변수                              | 내용                                                |
+> | ---------- | --------------------- | --------------------------------- | --------------------------------------------------- |
+> | **public** |                       | **Text** requiredPopulationUpText | 인구수레벨업하기 위해 필요한 cost를 표시해주는 Text |
+> |            |                       | **Text** populationText           | 인구수를 나타내는 Text                              |
+> |            |                       | **Text** populationShadowText     | 인구수를 나타내는 Text                              |
+> |            |                       | **GameObject** bluePosition       | 미니맵에 나타낼 객체.                               |
+> |            | **void** topPath()    |                                   | top path로 가는 명령                                |
+> |            | **void** middlePath() |                                   | middle path로 가는 명령                             |
+> |            | **void** bottomPath() |                                   | bottom path로 가는 명령                             |
+>
+> | 접근한정자    | 메소드                                   | 변수 | 내용 |
+> | ------------- | ---------------------------------------- | ---- | ---- |
+> | **protected** | **override void** UpgradePopulationLevel |      |      |
+>
+> - **Cost Class** (parent class) **-> BlueCost, RedCost**
+>
+> > cost와 관련한 정보를 담고있다.
+> >
+> > | 접근한정자 | 메소드 | 변수                            | 내용                              |
+> > | ---------- | ------ | ------------------------------- | --------------------------------- |
+> > | **public** |        | **int** curCost                 | 현재 cost를 나타낸다              |
+> > |            |        | **int** plusCost                | 매초 추가되는 cost양을 보여준다   |
+> > |            |        | **int** maxCost                 | 최대 cost를 나타낸다.             |
+> > |            |        | **BattleManager** battleManager | stageEnd 필요                     |
+> > |            |        | **CastleInfo** castleInfo       | castlelevel, population 정보 필요 |
+> > |            |        | **Text** requiredCostText       | requiredCostText 초기화           |
+> >
+> > | 접근한정자    | 메소드                            | 변수 | 내용 |
+> > | ------------- | --------------------------------- | ---- | ---- |
+> > | **public**    | **int** CostPlus(int CastleLevel) |      |      |
+> > | **protected** | **virtual IEnumerator** AddCost() |      |      |
+> >
+> > | Function Name          | parameter |     return      | 설명                                                         |
+> > | ---------------------- | :-------: | :-------------: | ------------------------------------------------------------ |
+> > | AddCost                | **void**  | **IEnumerator** | target을 객체화시키고 미니맵에 위치를 알려주는 객체를 생성한다. |
+> > | UpgradePopulationLevel |  **int**  |     **int**     | 입력받은 값으로 미니맵위치를 설정한다.                       |
+>
+> - **CastleBar** (parentClass) **-> BlueCastleBar, RedCastleBar**
+>
+> > | 접근한정자 | 메소드 | 변수                            | 내용                         |
+> > | ---------- | ------ | ------------------------------- | ---------------------------- |
+> > | **public** |        | **Rectransform** rectTransform  |                              |
+> > |            |        | **Text** costText               |                              |
+> > |            |        | **Text** costShadowText         |                              |
+> > |            |        | **int** maxHp                   |                              |
+> > |            |        | **static int** curHp            | ** 변경필요. static 없애기   |
+> > |            |        | **BattleManager** battleManager | win, stageEnd 변수접근 필요. |
+> >
+> > | 접근한정자  | 메소드 | 변수             | 내용      |
+> > | ----------- | ------ | ---------------- | --------- |
+> > | **private** |        | **float** ratio  | 비율조정  |
+> > |             |        | **float** width  | 너비      |
+> > |             |        | **float** height | 높이      |
+> > |             |        | **Vector2** need | 사각형 값 |
+> >
 > > 
 
 
