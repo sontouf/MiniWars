@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CastleBar : MonoBehaviour
 {
     public int maxHp;
-    static public int curHp;
+    public int curHp;
 
 
     float ratio;
@@ -18,6 +18,7 @@ public class CastleBar : MonoBehaviour
     float height;
 
     public BattleManager battleManager;
+    public GameObject castleBar;
 
     //Vector2 result;
     // Start is called before the first frame update
@@ -26,7 +27,7 @@ public class CastleBar : MonoBehaviour
         battleManager = GameObject.Find("Master").GetComponent<BattleManager>();
         maxHp = 1000;
         curHp = maxHp;
-        rectTransform = GetComponent<RectTransform>();
+        rectTransform = castleBar.GetComponent<RectTransform>();
         need = rectTransform.sizeDelta;
         width = need.x;
         height = need.y;

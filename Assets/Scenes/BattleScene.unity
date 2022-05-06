@@ -743,9 +743,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dfad69c0063f804c9b3ebe14b50226c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 2081322173}
-  unitCountText: {fileID: 1751529340}
-  unitCountShadowText: {fileID: 1360038646}
 --- !u!1 &181026761
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +889,7 @@ GameObject:
   - component: {fileID: 220026240}
   - component: {fileID: 220026241}
   - component: {fileID: 220026242}
+  - component: {fileID: 220026243}
   m_Layer: 9
   m_Name: RedCastle
   m_TagString: Red
@@ -1028,6 +1026,24 @@ MonoBehaviour:
   castleLevel: 1
   curPopulation: 0
   maxPopulation: 10
+--- !u!114 &220026243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220026237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b6100396122d6944a1d1ea3bb36b425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 0
+  curHp: 0
+  costText: {fileID: 5246007}
+  costShadowText: {fileID: 257588410}
+  battleManager: {fileID: 0}
+  castleBar: {fileID: 657266016}
 --- !u!1 &257588408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,7 +1134,6 @@ GameObject:
   - component: {fileID: 267714243}
   - component: {fileID: 267714246}
   - component: {fileID: 267714245}
-  - component: {fileID: 267714244}
   m_Layer: 8
   m_Name: BlueHealth
   m_TagString: Untagged
@@ -1146,26 +1161,6 @@ RectTransform:
   m_AnchoredPosition: {x: -8, y: 0}
   m_SizeDelta: {x: 100, y: 14}
   m_Pivot: {x: 1, y: 1}
---- !u!114 &267714244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267714242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9d507fdb676b7d4397b8e9db2125124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 0
-  ratio: 0
-  costText: {fileID: 1675958527}
-  costShadowText: {fileID: 1838882702}
-  need: {x: 0, y: 0}
-  width: 0
-  height: 0
-  battleManager: {fileID: 0}
 --- !u!114 &267714245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1375,6 +1370,7 @@ GameObject:
   - component: {fileID: 327311748}
   - component: {fileID: 327311751}
   - component: {fileID: 327311752}
+  - component: {fileID: 327311753}
   m_Layer: 8
   m_Name: BlueCastle
   m_TagString: Blue
@@ -1514,6 +1510,24 @@ MonoBehaviour:
   populationText: {fileID: 1751529340}
   populationShadowText: {fileID: 1360038646}
   bluePosition: {fileID: 0}
+--- !u!114 &327311753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327311747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d507fdb676b7d4397b8e9db2125124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 0
+  curHp: 0
+  costText: {fileID: 1675958527}
+  costShadowText: {fileID: 1838882702}
+  battleManager: {fileID: 0}
+  castleBar: {fileID: 267714242}
 --- !u!1 &343627802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2824,7 +2838,6 @@ GameObject:
   - component: {fileID: 657266017}
   - component: {fileID: 657266020}
   - component: {fileID: 657266019}
-  - component: {fileID: 657266018}
   m_Layer: 9
   m_Name: RedHealth
   m_TagString: Untagged
@@ -2852,26 +2865,6 @@ RectTransform:
   m_AnchoredPosition: {x: 8, y: 0}
   m_SizeDelta: {x: 100, y: 14}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &657266018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657266016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b6100396122d6944a1d1ea3bb36b425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 0
-  ratio: 0
-  costText: {fileID: 5246007}
-  costShadowText: {fileID: 257588410}
-  need: {x: 0, y: 0}
-  width: 0
-  height: 0
-  battleManager: {fileID: 0}
 --- !u!114 &657266019
 MonoBehaviour:
   m_ObjectHideFlags: 0

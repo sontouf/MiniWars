@@ -30,6 +30,7 @@ public class AttackState : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         UnitInfo unitInfo = animator.GetComponent<UnitInfo>();
+        CastleBar castleBar;
         if (animator.gameObject != null && scanEnemy.scanEnemy && !unitInfo.isHit)
         {
 
@@ -59,11 +60,15 @@ public class AttackState : StateMachineBehaviour
                 }
                 else if (scanEnemy.scanEnemy.GetComponent<BlueCost>())// 성이면
                 {
-                    BlueCastleBar.curHp -= unitInfo.damage;
+                    castleBar = scanEnemy.scanEnemy.GetComponent<BlueCastleBar>();
+                    castleBar.curHp -= unitInfo.damage;
+                    //BlueCastleBar.curHp -= unitInfo.damage;
                 }
                 else if (scanEnemy.scanEnemy.GetComponent<RedCost>())
                 {
-                    RedCastleBar.curHp -= unitInfo.damage;
+                    castleBar = scanEnemy.scanEnemy.GetComponent<RedCastleBar>();
+                    castleBar.curHp -= unitInfo.damage;
+                    //RedCastleBar.curHp -= unitInfo.damage;
                 }
 
                 /*            if (!animator.gameObject.GetComponent<Archer>())
@@ -85,6 +90,7 @@ public class AttackState : StateMachineBehaviour
     {
         UnitInfo unitInfo = animator.GetComponent<UnitInfo>();
         UnitInfo enemyInfo;
+        CastleBar castleBar;
         GameObject[] enemys = GameObject.FindGameObjectsWithTag(team);
         foreach (GameObject enemy in enemys)
         {
@@ -108,11 +114,13 @@ public class AttackState : StateMachineBehaviour
                 }
                 else if (enemy.GetComponent<BlueCost>())// 성이면
                 {
-                    BlueCastleBar.curHp -= unitInfo.damage;
+                    castleBar = scanEnemy.scanEnemy.GetComponent<BlueCastleBar>();
+                    castleBar.curHp -= unitInfo.damage;
                 }
                 else if (enemy.GetComponent<RedCost>())
                 {
-                    RedCastleBar.curHp -= unitInfo.damage;
+                    castleBar = scanEnemy.scanEnemy.GetComponent<BlueCastleBar>();
+                    castleBar.curHp -= unitInfo.damage;
                 }
             }
         }
