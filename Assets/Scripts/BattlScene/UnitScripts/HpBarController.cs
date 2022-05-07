@@ -49,9 +49,10 @@ public class HpBarController : MonoBehaviour
     // EggManager의 충돌감지하는 함수 OnCollider에서 호출된다.
     public void SetHealth(float curHp, float maxHp)
     {
-        if (curHp > maxHp)
+        if (curHp >= maxHp)
             curHp = maxHp;
-        hpBar.gameObject.SetActive(curHp <= maxHp);
+        if (hpBar.gameObject)
+            hpBar.gameObject.SetActive(curHp >= 0);
         hpBar.maxValue = maxHp;
         hpBar.value = curHp;
         image.color
